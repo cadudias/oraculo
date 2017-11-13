@@ -65,15 +65,18 @@
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-angular.module("App",['main']);
+"use strict";
 
-angular.module("main",[]);
 
- angular.module("main").controller("mainController",function($scope){
-    // Controller body
-    console.log('sssssss')
+angular.module("App", ['main']);
+
+angular.module("main", []);
+
+angular.module("main").controller("mainController", function ($scope) {
+   // Controller body
+   console.log('3122222231');
 });
 
 /***/ })
