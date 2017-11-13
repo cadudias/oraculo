@@ -4,11 +4,15 @@
   "description": "Base de dados sobre Tarot, Cabala e suas relações",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+	  "webpack": "webpack"
   },
   "author": "RHDEVS",
   "license": "ISC",
   "dependencies": {
     "angular": "^1.6.6"
+  },
+  "devDependencies": {
+    "webpack": "^3.8.1"
   }
 }
