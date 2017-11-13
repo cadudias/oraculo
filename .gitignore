@@ -1,1 +1,4 @@
 node_modules
+styles/app.css
+js/vendor.js
+js/app.js
