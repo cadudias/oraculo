@@ -1,8 +1,12 @@
+import 'jquery'
+import '../styles/app.scss';
+
 angular.module("App",['main']);
 
 angular.module("main",[]);
 
  angular.module("main").controller("mainController",function($scope){
     // Controller body
-    console.log('3122222231')
+    const A = 1;
+    console.log(A);
 });
