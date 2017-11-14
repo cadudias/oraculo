@@ -1,2 +1,28 @@
+nav .navbar-brand {
+  font-family: 'Pattaya', sans-serif;
+  text-align: center;
+  font-size: 50px;
+  width: 100%;
+  margin: 20px 0;
+  color: black;
+  text-transform: uppercase; }
+
 .home {
-  color: blue; }
+  font-family: 'Lobster', cursive; }
+  .home h2 {
+    font-size: 31px;
+    background: url(/images/images.png) no-repeat center 19px;
+    background-size: 652px 35px;
+    color: black;
+    padding-bottom: 28px; }
+  .home .separator {
+    border-top: 1px solid black;
+    margin: 30px 0; }
+  .home ul {
+    list-style: none;
+    margin-bottom: 50px; }
+    .home ul a:hover {
+      color: darkorange; }
+    .home ul h3 {
+      font-size: 1.5em;
+      color: darkorange; }

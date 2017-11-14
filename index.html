@@ -19,18 +19,20 @@
             <a class="navbar-brand" href="#">Oráculo</a>
         </nav>
 
-        <div angucomplete-alt id="ex2"
-            placeholder="Search people"
-            pause="300"
-            selected-object="selectedLamina"
-            local-data="laminas"
-            local-search="localSearch"
-            title-field="number,name"
-            description-field="twitter"
-            image-field="pic"
-            minlength="1"
-            input-class="form-control form-control-small"
-            match-class="highlight">
+        <div class="container search">
+            <div angucomplete-alt id="ex2"
+                placeholder="Procurar por nome ou por número da lâmina"
+                pause="300"
+                selected-object="selectedLamina"
+                local-data="laminas"
+                local-search="localSearch"
+                title-field="number,name"
+                description-field="lamina"
+                image-field="pic"
+                minlength="1"
+                input-class="form-control form-control-small"
+                match-class="highlight">
+            </div>
         </div>
         
         <div ui-view></div>

@@ -1,4 +1,10 @@
+body{
+    background: url('/images/maxresdefault.jpg') no-repeat;
+    background-size: cover;
+}
+
 nav{
+    background-color: white;
     .navbar-brand{
         //font-family: 'Lobster', cursive;
         //font-family: 'Amatic SC', cursive;
@@ -12,5 +18,14 @@ nav{
         margin: 20px 0;
         color:black;
         text-transform: uppercase;
+    }
+}
+
+.search{
+    background-color: white;
+    padding-top: 20px;
+
+    #ex2_value{
+        border: 1px solid black;
     }
 }

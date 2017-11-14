@@ -1,5 +1,6 @@
 .home{
     font-family: 'Lobster', cursive;
+    background-color: white; 
     
     h2{
         font-size: 31px;        
@@ -20,6 +21,10 @@
 
         a:hover{
             color: darkorange;
+
+            img{
+                opacity: 0.8;
+            }
         }
 
         h3{
