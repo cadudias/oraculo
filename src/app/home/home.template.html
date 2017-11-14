@@ -1,0 +1,28 @@
+<div class="container home text-center">
+    <!-- Arcanos maiores
+    <div listLaminasDirective listLaminas="laminas"></div> -->
+    
+    <div class="container">
+        <h2>Arcanos Maiores</h2>
+        <ul class="col-xs-12">        
+            <li class="col-xs-12 col-sm-6 col-md-3" ng-repeat="lamina in laminas | filter: { type: 'major' }">
+                <a href="/arcano/{{lamina.slug}}">
+                    <h3>{{lamina.number}} - {{lamina.name}}</h3>
+                    <img class="img-responsive" src="{{lamina.image}}" />                
+                </a>
+            </li>
+        </ul>
+    </div>    
+
+    <div class="container">
+        <h2>Arcanos Menores</h2>
+        <ul  class="col-xs-12">        
+            <li class="col-xs-12 col-sm-6 col-md-3" ng-repeat="lamina in laminas | filter: { type: 'minor' }">
+                <a href="/arcano/{{lamina.slug}}">
+                    <h3>{{lamina.number}} - {{lamina.name}}</h3>
+                    <img class="img-responsive" src="{{lamina.image}}" />                
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>

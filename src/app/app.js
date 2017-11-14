@@ -1,31 +1,34 @@
-import 'jquery'
 import '../styles/app.scss';
 import 'angucomplete-alt';
 
-var app = angular.module("app",['ui.router', 'angucomplete-alt']);
+import homeRoutes from './home/home.routes';
+import laminaRoutes from './lamina/lamina.routes';
 
-app.config(['$locationProvider', '$urlRouterProvider', '$stateProvider', function($locationProvider, $urlRouterProvider, $stateProvider){
+import laminasService from './services/laminas.service';
+
+angular.module("app", [
+    'ui.router', 
+    'angucomplete-alt',
+    homeRoutes.name,
+    laminaRoutes.name,
+    laminasService
+]).config(['$locationProvider', '$urlRouterProvider', '$stateProvider', function($locationProvider, $urlRouterProvider, $stateProvider){
     // removes # from url
     $locationProvider.html5Mode({
         enabled: true,
         requireBase: true 
-    });
+    });    
 
-    //$urlRouterProvider.otherwise('/');
-    
-    $stateProvider.state('/', {
-        url: '/',
-        templateUrl: '/views/home.html',
-        controller: 'homeController',
-        controllerAs: 'homeCtrl'
-    })
-}]);
+    $urlRouterProvider.otherwise('/');
+}])
+/*
+app.factory('LaminasFactory', function(){
+    console.log('ssss')
+    let lm = {
+        lamina_keyword: 'teste'
+    }
 
-app.controller("homeController", function($scope){
-    const vm = this;
-
-    //load laminas to autocomplete
-    $scope.laminas = (function() {
+    lm.laminas = (function() {
         var json = null;
         $.ajax({
             'async': false,
@@ -39,15 +42,14 @@ app.controller("homeController", function($scope){
         return json;
     })();
 
-    $scope.selectedLamina = function($item){        
+    lm.selectedLamina = function($item){        
         $item.title // or description, or image - from your angucomplete attribute configuration
         $item.originalObject // the actual object which was selected
         this.$parent // the control which caused the change, contains useful things like $index for use in ng-repeat.
         console.log($item.title)
     };
 
-    // search function to match full text
-    $scope.localSearch = function(str, laminas) {
+    lm.localSearch = function(str, laminas) {
         var matches = [];
         laminas.forEach(function(lamina) {
             var fullName = lamina.number + ' ' + lamina.name;
@@ -59,15 +61,8 @@ app.controller("homeController", function($scope){
         });
         return matches;
     };
-}).directive('listLaminasDirective',function(){
-    return {
-      restrict : 'EA',
-      transclude : false,
-      templateUrl : 'views/components/listLaminas.html',
-      scope: {
-         listLaminas: "@"
-      },
-      link : function(scope, element, attrs) {
-      }
-    }
+
+    return lm;
 });
+*/
+

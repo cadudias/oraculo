@@ -7,10 +7,18 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Oráculo</title>
         <link rel="stylesheet" href="./styles/app.css">
+        <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Amatic+SC:700|Bungee+Shade|Cinzel+Decorative|Dynalight|Pattaya" rel="stylesheet">
     </head>
 
     <!-- edit -->
     <body ng-app="app" class="jumbotron">                
+
+        <!-- As a link -->
+        <nav class="navbar navbar-light bg-light">
+            <a class="navbar-brand" href="#">Oráculo</a>
+        </nav>
+
         <div angucomplete-alt id="ex2"
             placeholder="Search people"
             pause="300"
@@ -28,9 +36,7 @@
         <div ui-view></div>
     </body>
 
-    <script type="text/javascript" src="./js/vendor.js"></script>
     <script src="//unpkg.com/@uirouter/angularjs/release/angular-ui-router.min.js"></script>
-    <!-- edit -->
-    <script type="text/javascript" src="./js/app.js"></script>
+
     
 </html>
