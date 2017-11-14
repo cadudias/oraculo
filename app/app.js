@@ -1,12 +1,26 @@
 import 'jquery'
 import '../styles/app.scss';
 
-angular.module("App",['main']);
+var app = angular.module("app",['ui.router']);
 
-angular.module("main",[]);
+app.config(['$locationProvider', '$urlRouterProvider', '$stateProvider', function($locationProvider, $urlRouterProvider, $stateProvider){
 
- angular.module("main").controller("mainController",function($scope){
-    // Controller body
-    const A = 1;
-    console.log(A);
-});
+    // removes # from url
+    $locationProvider.html5Mode({
+        enabled: true,
+        requireBase: true 
+    });
+
+    //$urlRouterProvider.otherwise('/');
+    
+    $stateProvider.state('/', {
+        url: '/',
+        template: 'Olá, home',
+        controller: 'homeController',
+        controllerAs: 'homeCtrl'
+    })
+}]);
+
+app.controller("homeController", function(){
+    const vm = this;
+})

@@ -1,16 +1,22 @@
 <!DOCTYPE html>
 <!-- edit -->
-<html ng-app="App">
+<html>
     <head>
+        <base href="/"> 
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Oráculo</title>
         <link rel="stylesheet" href="./styles/app.css">
     </head>
-    <!-- edit -->
-    <body ng-controller="mainController" class="jumbotron">
+    
+    <body class="jumbotron" ng-app="app">
+        <div ui-view></div>
         {{2+2}}
     </body>
+
     <script type="text/javascript" src="./js/vendor.js"></script>
+    <script src="//unpkg.com/@uirouter/angularjs/release/angular-ui-router.min.js"></script>
     <!-- edit -->
     <script type="text/javascript" src="./js/app.js"></script>
+    
 </html>
