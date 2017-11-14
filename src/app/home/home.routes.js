@@ -7,8 +7,7 @@ function homeRouting($urlRouterProvider, $stateProvider) {
     .state('home', {
       url: '/',
       template: require('../home/home.template.html'),
-      controller: HomeController,
-      controllerAs: 'home'
+      controller: HomeController
     });
 }
 

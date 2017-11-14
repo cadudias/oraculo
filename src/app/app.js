@@ -1,3 +1,5 @@
+import 'jquery';
+import 'bootstrap/dist/js/bootstrap';
 import '../styles/app.scss';
 import 'angucomplete-alt';
 

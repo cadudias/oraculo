@@ -63,6 +63,7 @@ module.exports = function (options) {
     entry: {
       'vendor': [
         'jquery',
+        'bootstrap',
         'angular'
       ],
       'main': './src/app/app.js',
@@ -156,7 +157,11 @@ module.exports = function (options) {
      * See: http://webpack.github.io/docs/configuration.html#plugins
      */
     plugins: [
-
+      new webpack.ProvidePlugin({  
+          jQuery: 'jquery',
+          $: 'jquery',
+          jquery: 'jquery'
+      }),
       /**
        * Plugin: ForkCheckerPlugin
        * Description: Do type checking in a separate process, so webpack doesn't need to wait.
@@ -171,12 +176,12 @@ module.exports = function (options) {
        *
        * See: https://webpack.github.io/docs/list-of-plugins.html#commonschunkplugin
        * See: https://github.com/webpack/docs/wiki/optimization#multi-page-app
-     */
+    
       new CommonsChunkPlugin({
         name: 'vendor',
         filename: "vendor.[hash].js"
       }),
-  
+   */
       //new CommonsChunkPlugin(/* chunkName= */"vendor", /* filename= */"vendor.[hash].js"),
 
       /*

@@ -1,20 +1,44 @@
+
+var moduleName ='laminas.services';
+
+const HTTP = new WeakMap();
+
 class LaminasService
 {
-  constructor()
+  constructor($http)
   {
     'ngInject';
 
-    this.lm = {
-        lamina_keyword: 'teste'
+    HTTP.set(this, $http);
+
+    const lm = {
+        lamina_keyword: 'sdfdsf',
+        laminas: []
     }
   }
 
-    getLaminas(){          
-        console.log('getLaminas') 
-    }
-}
+    //this.$http = $http;
 
-var moduleName ='laminas.services';
+    
+    /*
+    lm.laminas = function(){
+        $http({
+            url: "./src/js/json/laminas.json",
+            method: "GET"
+        }).then(function successCallback(response) {
+            console.log(response.data[0])
+            return response.data[0];
+        });
+    }
+
+    */
+    
+    getLaminas(){
+        var result = HTTP.get(this).get("./src/js/json/laminas.json").then(result => result.data );
+        console.log(result);
+        return result;
+    }
+  }
 
 angular.module(moduleName, [])
   .service('laminasService', LaminasService);

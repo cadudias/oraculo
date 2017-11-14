@@ -1,56 +1,7 @@
 [
     {
         "type": "major",
-        "image": "/images/laminas/o-louco.jpg",
-        "number": "1",
-        "name": "O Mago",
-        "slug": "o-mago"
-    },
-    {
-        "type": "major",
-        "image": "/images/laminas/o-louco.jpg",
-        "number": "1",
-        "name": "O Mago",
-        "slug": "o-mago"
-    },
-    {
-        "type": "major",
-        "image": "/images/laminas/o-louco.jpg",
-        "number": "1",
-        "name": "O Mago",
-        "slug": "o-mago"
-    },
-    {
-        "type": "major",
-        "image": "/images/laminas/o-louco.jpg",
-        "number": "1",
-        "name": "O Mago",
-        "slug": "o-mago"
-    },
-    {
-        "type": "minor",
-        "image": "/images/laminas/o-louco.jpg",
-        "number": "1",
-        "name": "O Mago",
-        "slug": "o-mago"
-    },
-    {
-        "type": "minor",
-        "image": "/images/laminas/o-louco.jpg",
-        "number": "1",
-        "name": "O Mago",
-        "slug": "o-mago"
-    },
-    {
-        "type": "minor",
-        "image": "/images/laminas/o-louco.jpg",
-        "number": "1",
-        "name": "O Mago",
-        "slug": "o-mago"
-    },
-    {
-        "type": "minor",
-        "image": "/images/laminas/o-louco.jpg",
+        "image": "./src/assets/images/laminas/o-louco.jpg",
         "number": "1",
         "name": "O Mago",
         "slug": "o-mago"

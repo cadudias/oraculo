@@ -1,8 +1,7 @@
 body{
-    background: url('/images/maxresdefault.jpg') no-repeat;
+    background: url('/src/assets/images/maxresdefault.jpg') no-repeat;
     background-size: cover;
 }
-
 nav{
     background-color: white;
     .navbar-brand{
@@ -18,18 +17,15 @@ nav{
         margin: 20px 0;
         color:black;
         text-transform: uppercase;
-
         &:hover, &:focus{
             color:black;
             opacity: 0.7;
         }
     }
 }
-
 .search{
     background-color: white;
     padding: 60px 0;
-
     #ex2_value{
         border: 1px solid black;
         width: 80%;
@@ -37,7 +33,6 @@ nav{
         font-size: 20px;
         font-family: 'Pattaya', sans-serif;
     }
-
     #ex2_dropdown{
         width: 80%;
         margin: 0 auto;
