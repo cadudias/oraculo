@@ -8,7 +8,24 @@
     </head>
     <!-- edit -->
     <body ng-controller="mainController" class="jumbotron">
-        {{2+2}}
+        <div angucomplete-alt id="ex2"
+            placeholder="Search people"
+            pause="300"
+            selected-object="selectedLamina"
+            local-data="laminas"
+            local-search="localSearch"
+            title-field="number,name"
+            description-field="twitter"
+            image-field="pic"
+            minlength="1"
+            input-class="form-control form-control-small"
+            match-class="highlight">
+        </div>
+
+        <div class="container">
+             <div listLaminasDirective listLaminas="laminas"></div>
+        </div>
+
     </body>
     <script type="text/javascript" src="./js/vendor.js"></script>
     <!-- edit -->

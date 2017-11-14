@@ -61,7 +61,7 @@
 /******/ 	
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "01ce8bd52315996ce61d"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "2f2acd82d6d550f5f91b"; // eslint-disable-line no-unused-vars
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule; // eslint-disable-line no-unused-vars
@@ -12450,12 +12450,24 @@ __webpack_require__(0);
 
 __webpack_require__(12);
 
-angular.module("App", ['main']);
+angular.module("App", ['main', 'angucomplete-alt']);
 angular.module("main", []);
 angular.module("main").controller("mainController", function ($scope) {
   // Controller body
   var A = 1;
-  console.log(A);
+  console.log(A); // search function to match full text
+
+  $scope.localSearch = function (str, people) {
+    var matches = [];
+    people.forEach(function (person) {
+      var fullName = person.firstName + ' ' + person.surname;
+
+      if (person.firstName.toLowerCase().indexOf(str.toString().toLowerCase()) >= 0 || person.surname.toLowerCase().indexOf(str.toString().toLowerCase()) >= 0 || fullName.toLowerCase().indexOf(str.toString().toLowerCase()) >= 0) {
+        matches.push(person);
+      }
+    });
+    return matches;
+  };
 });
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(2)))
 
