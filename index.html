@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <!-- edit -->
-<html ng-app="App">
+<html>
     <head>
+        <base href="/"> 
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Oráculo</title>
         <link rel="stylesheet" href="./styles/app.css">
     </head>
+
     <!-- edit -->
-    <body ng-controller="mainController" class="jumbotron">
+    <body ng-app="app" class="jumbotron">                
         <div angucomplete-alt id="ex2"
             placeholder="Search people"
             pause="300"
@@ -21,13 +24,13 @@
             input-class="form-control form-control-small"
             match-class="highlight">
         </div>
-
-        <div class="container">
-             <div listLaminasDirective listLaminas="laminas"></div>
-        </div>
-
+        
+        <div ui-view></div>
     </body>
+
     <script type="text/javascript" src="./js/vendor.js"></script>
+    <script src="//unpkg.com/@uirouter/angularjs/release/angular-ui-router.min.js"></script>
     <!-- edit -->
     <script type="text/javascript" src="./js/app.js"></script>
+    
 </html>

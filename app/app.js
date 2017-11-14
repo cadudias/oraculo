@@ -2,14 +2,27 @@ import 'jquery'
 import '../styles/app.scss';
 import 'angucomplete-alt';
 
-angular.module("App", ['main', "angucomplete-alt"]);
+var app = angular.module("app",['ui.router', 'angucomplete-alt']);
 
-angular.module("main",[]);
+app.config(['$locationProvider', '$urlRouterProvider', '$stateProvider', function($locationProvider, $urlRouterProvider, $stateProvider){
+    // removes # from url
+    $locationProvider.html5Mode({
+        enabled: true,
+        requireBase: true 
+    });
 
- angular.module("main").controller("mainController",function($scope){
-    // Controller body
-    const A = 1;
-    console.log(A);
+    //$urlRouterProvider.otherwise('/');
+    
+    $stateProvider.state('/', {
+        url: '/',
+        templateUrl: '/views/home.html',
+        controller: 'homeController',
+        controllerAs: 'homeCtrl'
+    })
+}]);
+
+app.controller("homeController", function($scope){
+    const vm = this;
 
     //load laminas to autocomplete
     $scope.laminas = (function() {
@@ -46,7 +59,6 @@ angular.module("main",[]);
         });
         return matches;
     };
-
 }).directive('listLaminasDirective',function(){
     return {
       restrict : 'EA',

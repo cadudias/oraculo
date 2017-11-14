@@ -64,22 +64,8 @@ module.exports = {
                 test: /\.scss$/i,
                 exclude: /node_modules/,
                 use: ExtractPlugin.extract({
-                use: ['css-loader', 'sass-loader']
+                    use: ['css-loader', 'sass-loader']
                 })
-                //extract the css from app.js to main.css file
-                //test: /\.scss$/,
-                //loader: ExtractPlugin.extract('style-loader', 'css-loader!sass-loader')
-                //test: /\.scss$/,
-                /*
-                include: [
-                    path.resolve(__dirname, "scss")
-                ],             
-                use: [
-                     { loader: "style-loader" },
-                     { loader: "css-loader" },
-                     { loader: "sass-loader" }
-                ]
-                    */
             },
             {
                 test: /\.css$/i,
@@ -87,24 +73,6 @@ module.exports = {
                     fallback: 'style-loader',
                     use: 'css-loader'
                 }),
-            },
-            {
-                /*
-                test: /(\.css$)/, 
-                include: [
-                    path.resolve(__dirname, "scss")
-                ],             
-                use: [
-                     { loader: "style-loader" },
-                     { loader: "css-loader" },
-                     { loader: "postcss-loader" }
-                ]
-                    */
-                /*
-                test: /\.css$/,
-                loader: ExtractPlugin.extract('style-loader', 'css')
-                */
-                
             },
             {
                 test: /\.(ico|png|gif|jpe?g)$/i,
