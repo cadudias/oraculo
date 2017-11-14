@@ -1,6 +1,10 @@
 // version 3
 @import 'variables';
+@import 'base/base';
+@import 'pages/home';
 
-.home{
-    color: blue;
-}
+
+// body{
+//     background: url('/images/maxresdefault.jpg') no-repeat;
+//     background-size: cover;
+// }

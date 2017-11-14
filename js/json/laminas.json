@@ -1,7 +1,58 @@
 [
     {
         "type": "major",
+        "image": "/images/o-louco.jpg",
         "number": "1",
-        "name": "O Mago"
+        "name": "O Mago",
+        "slug": "o-mago"
+    },
+    {
+        "type": "major",
+        "image": "/images/o-louco.jpg",
+        "number": "1",
+        "name": "O Mago",
+        "slug": "o-mago"
+    },
+    {
+        "type": "major",
+        "image": "/images/o-louco.jpg",
+        "number": "1",
+        "name": "O Mago",
+        "slug": "o-mago"
+    },
+    {
+        "type": "major",
+        "image": "/images/o-louco.jpg",
+        "number": "1",
+        "name": "O Mago",
+        "slug": "o-mago"
+    },
+    {
+        "type": "minor",
+        "image": "/images/o-louco.jpg",
+        "number": "1",
+        "name": "O Mago",
+        "slug": "o-mago"
+    },
+    {
+        "type": "minor",
+        "image": "/images/o-louco.jpg",
+        "number": "1",
+        "name": "O Mago",
+        "slug": "o-mago"
+    },
+    {
+        "type": "minor",
+        "image": "/images/o-louco.jpg",
+        "number": "1",
+        "name": "O Mago",
+        "slug": "o-mago"
+    },
+    {
+        "type": "minor",
+        "image": "/images/o-louco.jpg",
+        "number": "1",
+        "name": "O Mago",
+        "slug": "o-mago"
     }
 ]
