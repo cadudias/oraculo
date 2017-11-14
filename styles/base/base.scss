@@ -18,14 +18,29 @@ nav{
         margin: 20px 0;
         color:black;
         text-transform: uppercase;
+
+        &:hover, &:focus{
+            color:black;
+            opacity: 0.7;
+        }
     }
 }
 
 .search{
     background-color: white;
-    padding-top: 20px;
+    padding: 60px 0;
 
     #ex2_value{
         border: 1px solid black;
+        width: 80%;
+        margin: 0 auto;
+        font-size: 20px;
+        font-family: 'Pattaya', sans-serif;
+    }
+
+    #ex2_dropdown{
+        width: 80%;
+        margin: 0 auto;
+        padding: 10px 0;
     }
 }
