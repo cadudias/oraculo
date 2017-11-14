@@ -1,6 +1,4 @@
 // version 3
 @import 'variables';
-
-.home{
-    color: blue;
-}
+@import 'base/base';
+@import 'pages/home';

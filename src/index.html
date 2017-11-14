@@ -12,31 +12,35 @@
     </head>
 
     <!-- edit -->
-    <body ng-app="app" class="jumbotron">                
+    <body ng-app="app" class="">                
 
         <!-- As a link -->
         <nav class="navbar navbar-light bg-light">
             <a class="navbar-brand" href="#">Oráculo</a>
         </nav>
 
-        <div angucomplete-alt id="ex2"
-            placeholder="Search people"
-            pause="300"
-            selected-object="selectedLamina"
-            local-data="laminas"
-            local-search="localSearch"
-            title-field="number,name"
-            description-field="twitter"
-            image-field="pic"
-            minlength="1"
-            input-class="form-control form-control-small"
-            match-class="highlight">
+        <div class="container search">
+            <div angucomplete-alt id="ex2"
+                placeholder="Busque por Nome/Número da lâmina"
+                pause="300"
+                selected-object="selectedLamina"
+                local-data="laminas"
+                local-search="localSearch"
+                title-field="number,name"
+                description-field="lamina"
+                image-field="pic"
+                minlength="1"
+                input-class="form-control form-control-small"
+                match-class="highlight">
+            </div>
         </div>
         
         <div ui-view></div>
     </body>
 
+    <script type="text/javascript" src="./js/vendor.js"></script>
     <script src="//unpkg.com/@uirouter/angularjs/release/angular-ui-router.min.js"></script>
-
+    <!-- edit -->
+    <script type="text/javascript" src="./js/app.js"></script>
     
 </html>
