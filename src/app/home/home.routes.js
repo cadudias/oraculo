@@ -1,8 +1,6 @@
 import HomeController from '../home/home.controller.js';
 
 function homeRouting($urlRouterProvider, $stateProvider) {
-  $urlRouterProvider.otherwise('/');
-  
   $stateProvider
     .state('home', {
       url: '/',

@@ -21,7 +21,7 @@ const HotModuleReplacementPlugin = require('webpack/lib/HotModuleReplacementPlug
  */
 const ENV = process.env.ENV = process.env.NODE_ENV = 'development';
 const HOST = process.env.HOST || 'localhost';
-const PORT = process.env.PORT || 12356;
+const PORT = process.env.PORT || 42356;
 const PUBLIC = process.env.PUBLIC_DEV || HOST + ':' + PORT;
 const HMR = helpers.hasProcessFlag('hot');
 const METADATA = {

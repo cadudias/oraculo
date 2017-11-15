@@ -176,12 +176,12 @@ module.exports = function (options) {
        *
        * See: https://webpack.github.io/docs/list-of-plugins.html#commonschunkplugin
        * See: https://github.com/webpack/docs/wiki/optimization#multi-page-app
-    
+    */
       new CommonsChunkPlugin({
         name: 'vendor',
         filename: "vendor.[hash].js"
       }),
-   */
+   
       //new CommonsChunkPlugin(/* chunkName= */"vendor", /* filename= */"vendor.[hash].js"),
 
       /*

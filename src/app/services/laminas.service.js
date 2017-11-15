@@ -10,17 +10,14 @@ class LaminasService
     'ngInject';
 
     HTTP.set(this, $http);
-
-    const lm = {
-        lamina_keyword: 'sdfdsf',
-        laminas: []
-    }
   }
 
     //this.$http = $http;
-
-    
-    /*
+/*
+    var lm = {
+        lamina_keyword: 'sdfdsf',
+        laminas: []
+    }
     lm.laminas = function(){
         $http({
             url: "./src/js/json/laminas.json",
@@ -35,7 +32,6 @@ class LaminasService
     
     getLaminas(){
         var result = HTTP.get(this).get("./src/js/json/laminas.json").then(result => result.data );
-        console.log(result);
         return result;
     }
   }

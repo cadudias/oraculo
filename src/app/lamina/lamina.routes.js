@@ -1,11 +1,9 @@
 import LaminaController from '../lamina/lamina.controller.js';
 
 function laminaRouting($urlRouterProvider, $stateProvider) {
-  $urlRouterProvider.otherwise('/');
-  
   $stateProvider
     .state('lamina', {
-      url: '/lamina',
+      url: '/lamina/:slug',
       template: require('../lamina/lamina.template.html'),
       controller: LaminaController,
       controllerAs: 'lamina'
