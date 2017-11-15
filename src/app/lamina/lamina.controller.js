@@ -1,6 +1,6 @@
 export default class LaminaController {
   constructor($scope, laminasService, $stateParams) {
-    // carrega a lamina correspondente
+
     const slug = $stateParams.slug;
 
     $scope.lamina = laminasService.getLamina(slug).then(lamina => {

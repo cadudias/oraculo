@@ -12,10 +12,6 @@
     content:"\263F";
 }
 
-.card {
-
-}
-
 .info{
     font-size: 18px;
 
@@ -26,6 +22,10 @@
 
     .menu{
         padding: 10px 0;
+
+        &:hover{
+            color: #000;
+        }
     }
     
     .text{
@@ -34,4 +34,10 @@
         margin-top: 10px;
         //display: none;
     }
+
+    .icon i{
+        position: relative;
+        top: 5px;
+    }
+    
 }

@@ -64,7 +64,9 @@ module.exports = function (options) {
       'vendor': [
         'jquery',
         'bootstrap',
-        'angular'
+        'angular',
+        //adicionando o font-awesome aqui não é preciso importar ele no app.js como um modulo
+        'style-loader!css-loader!less-loader!font-awesome-webpack/font-awesome-styles.loader!font-awesome-webpack/font-awesome.config.js', //webpack 2 beta fix for font-awesome-webpack
       ],
       'main': './src/app/app.js',
     },
@@ -116,7 +118,7 @@ module.exports = function (options) {
          */
         {
           test: /\.scss$/,
-          use: ['css-loader', 'sass-loader'],
+          use: ['css-loader', 'sass-loader', 'less-loader'],
           exclude: [helpers.root('src', 'styles')]
         },
 
@@ -140,12 +142,30 @@ module.exports = function (options) {
           use: 'file-loader'
         },
 
+        {
+        test: /\.woff(\?v=\d+\.\d+\.\d+)?$/,
+        loader: "url-loader?limit=10000&mimetype=application/font-woff"
+      }, {
+        test: /\.woff2(\?v=\d+\.\d+\.\d+)?$/,
+        loader: "url-loader?limit=10000&mimetype=application/font-woff"
+      }, {
+        test: /\.ttf(\?v=\d+\.\d+\.\d+)?$/,
+        loader: "url-loader?limit=10000&mimetype=application/octet-stream"
+      }, {
+        test: /\.eot(\?v=\d+\.\d+\.\d+)?$/,
+        loader: "file-loader"
+      }, {
+        test: /\.svg(\?v=\d+\.\d+\.\d+)?$/,
+        loader: "url-loader?limit=10000&mimetype=image/svg+xml"
+      }
+
         /* File loader for supporting fonts, for example, in CSS files.
-        */
+        
         {
           test: /\.(eot|woff2?|svg|ttf)([\?]?.*)$/,
           use: 'file-loader'
         }
+        */
 
       ],
 
