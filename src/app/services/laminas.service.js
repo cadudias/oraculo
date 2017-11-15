@@ -5,11 +5,12 @@ const HTTP = new WeakMap();
 
 class LaminasService
 {
-  constructor($http)
+  constructor($http, $state)
   {
     'ngInject';
 
     HTTP.set(this, $http);
+    this.$state = $state;
   }
 
     //this.$http = $http;
@@ -48,11 +49,10 @@ class LaminasService
         return matches;
     }
 
-    selectedLamina($item){        
-        $item.title // or description, or image - from your angucomplete attribute configuration
-        $item.originalObject // the actual object which was selected
-        this.$parent // the control which caused the change, contains useful things like $index for use in ng-repeat.
-        console.log($item.title)
+    selectedLamina($item){                       
+        this.$state.go('lamina', {
+            slug: $item.originalObject.slug
+        });
     };
 
   }
