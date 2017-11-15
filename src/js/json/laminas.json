@@ -2,8 +2,155 @@
     {
         "type": "major",
         "image": "./src/assets/images/laminas/o-louco.jpg",
+        "number": "0",
+        "name": "O Louco",
+        "slug": "o-louco"
+    },
+    {
+        "type": "major",
+        "image": "./src/assets/images/laminas/o-mago.jpg",
         "number": "1",
         "name": "O Mago",
         "slug": "o-mago"
-    }
+    },
+    {
+        "type": "major",
+        "image": "./src/assets/images/laminas/a-sacerdotisa.jpg",
+        "number": "2",
+        "name": "A Sacerdotisa",
+        "slug": "a-sacerdotisa"
+    },
+    {
+        "type": "major",
+        "image": "./src/assets/images/laminas/a-imperatriz.jpg",
+        "number": "3",
+        "name": "A Imperatriz",
+        "slug": "a-imperatriz"
+    },
+    {
+        "type": "major",
+        "image": "./src/assets/images/laminas/o-imperador.jpg",
+        "number": "4",
+        "name": "O Imperador",
+        "slug": "o-imperador"
+    },
+    {
+        "type": "major",
+        "image": "./src/assets/images/laminas/o-papa.jpg",
+        "number": "5",
+        "name": "O Papa",
+        "slug": "o-papa"
+    },
+    {
+        "type": "major",
+        "image": "./src/assets/images/laminas/os-enamorados.jpg",
+        "number": "6",
+        "name": "Os Enamorados",
+        "slug": "os-enamorados"
+    },
+    {
+        "type": "major",
+        "image": "./src/assets/images/laminas/o-carro.jpg",
+        "number": "7",
+        "name": "O Carro",
+        "slug": "o-carro"
+    },
+    {
+        "type": "major",
+        "image": "./src/assets/images/laminas/a-forca.jpg",
+        "number": "8",
+        "name": "A Força",
+        "slug": "a-forca"
+    },
+    {
+        "type": "major",
+        "image": "./src/assets/images/laminas/o-eremita.jpg",
+        "number": "9",
+        "name": "O Eremita",
+        "slug": "o-eremita"
+    },
+    {
+        "type": "major",
+        "image": "./src/assets/images/laminas/a-roda-da-fortuna.jpg",
+        "number": "10",
+        "name": "A Roda da Fortuna",
+        "slug": "a-roda-da-fortuna"
+    },
+    {
+        "type": "major",
+        "image": "./src/assets/images/laminas/a-justica.jpg",
+        "number": "11",
+        "name": "A Justiça",
+        "slug": "a-justica"
+    },
+    {
+        "type": "major",
+        "image": "./src/assets/images/laminas/o-enforcado.jpg",
+        "number": "12",
+        "name": "O Enforcado",
+        "slug": "o-enforcado"
+    },
+    {
+        "type": "major",
+        "image": "./src/assets/images/laminas/a-morte.jpg",
+        "number": "13",
+        "name": "A Morte",
+        "slug": "a-morte"
+    },
+    {
+        "type": "major",
+        "image": "./src/assets/images/laminas/a-temperanca.jpg",
+        "number": "14",
+        "name": "A Temperança",
+        "slug": "a-temperanca"
+    },
+    {
+        "type": "major",
+        "image": "./src/assets/images/laminas/o-diabo.jpg",
+        "number": "15",
+        "name": "O Diabo",
+        "slug": "o-diabo"
+    },
+    {
+        "type": "major",
+        "image": "./src/assets/images/laminas/a-torre.jpg",
+        "number": "16",
+        "name": "A Torre",
+        "slug": "a-torre"
+    },
+    {
+        "type": "major",
+        "image": "./src/assets/images/laminas/a-estrela.jpg",
+        "number": "17",
+        "name": "A Estrela",
+        "slug": "a-estrela"
+    },
+    {
+        "type": "major",
+        "image": "./src/assets/images/laminas/a-lua.jpg",
+        "number": "18",
+        "name": "A Lua",
+        "slug": "a-lua"
+    },
+    {
+        "type": "major",
+        "image": "./src/assets/images/laminas/o-sol.jpg",
+        "number": "19",
+        "name": "O Sol",
+        "slug": "o-sol"
+    },
+    {
+        "type": "major",
+        "image": "./src/assets/images/laminas/o-julgamento.jpg",
+        "number": "20",
+        "name": "O Julgamento",
+        "slug": "o-julgamento"
+    },
+    {
+        "type": "major",
+        "image": "./src/assets/images/laminas/o-mundo.jpg",
+        "number": "21",
+        "name": "O Mundo",
+        "slug": "o-mundo"
+    }    
 ]
