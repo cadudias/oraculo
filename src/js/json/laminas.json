@@ -156,7 +156,7 @@
     {
         "type": "minor",
         "subtype": "Copas",
-        "image": "./src/assets/images/laminas/minor/as-de-copas.jpg",
+        "image": "./src/assets/images/laminas/minor/cups/as-de-copas.jpg",
         "number": "1",
         "name": "As de Copas",
         "slug": "as-de-copas"
@@ -164,7 +164,7 @@
     {
         "type": "minor",
         "subtype": "Copas",
-        "image": "./src/assets/images/laminas/minor/2-de-copas.jpg",
+        "image": "./src/assets/images/laminas/minor/cups/2-de-copas.jpg",
         "number": "2",
         "name": "Dois de Copas",
         "slug": "dois-de-copas"
@@ -172,70 +172,70 @@
     {
         "type": "minor",
         "subtype": "Copas",
-        "image": "./src/assets/images/laminas/minor/3-de-copas.jpg",
+        "image": "./src/assets/images/laminas/minor/cups/3-de-copas.jpg",
         "number": "3",
-        "name": "3 de Copas",
+        "name": "Três de Copas",
         "slug": "3-de-copas"
     },
     {
         "type": "minor",
         "subtype": "Copas",
-        "image": "./src/assets/images/laminas/minor/4-de-copas.jpg",
+        "image": "./src/assets/images/laminas/minor/cups/4-de-copas.jpg",
         "number": "4",
-        "name": "4 de Copas",
+        "name": "Quatro de Copas",
         "slug": "4-de-copas"
     },
     {
         "type": "minor",
         "subtype": "Copas",
-        "image": "./src/assets/images/laminas/minor/5-de-copas.jpg",
+        "image": "./src/assets/images/laminas/minor/cups/5-de-copas.jpg",
         "number": "5",
-        "name": "5 de Copas",
+        "name": "Cinco de Copas",
         "slug": "5-de-copas"
     },
     {
         "type": "minor",
         "subtype": "Copas",
-        "image": "./src/assets/images/laminas/minor/6-de-copas.jpg",
+        "image": "./src/assets/images/laminas/minor/cups/6-de-copas.jpg",
         "number": "6",
-        "name": "6 de Copas",
+        "name": "Seis de Copas",
         "slug": "6-de-copas"
     },
     {
         "type": "minor",
         "subtype": "Copas",
-        "image": "./src/assets/images/laminas/minor/7-de-copas.jpg",
+        "image": "./src/assets/images/laminas/minor/cups/7-de-copas.jpg",
         "number": "7",
-        "name": "7 de Copas",
+        "name": "Sete de Copas",
         "slug": "7-de-copas"
     },
     {
         "type": "minor",
         "subtype": "Copas",
-        "image": "./src/assets/images/laminas/minor/8-de-copas.jpg",
+        "image": "./src/assets/images/laminas/minor/cups/8-de-copas.jpg",
         "number": "8",
-        "name": "8 de Copas",
+        "name": "Oito de Copas",
         "slug": "8-de-copas"
     },
     {
         "type": "minor",
-        "image": "./src/assets/images/laminas/minor/9-de-copas.jpg",
+        "image": "./src/assets/images/laminas/minor/cups/9-de-copas.jpg",
         "number": "9",
-        "name": "9 de Copas",
+        "name": "Nove de Copas",
         "slug": "9-de-copas"
     },
     {
         "type": "minor",
         "subtype": "Copas",
-        "image": "./src/assets/images/laminas/minor/10-de-copas.jpg",
+        "image": "./src/assets/images/laminas/minor/cups/10-de-copas.jpg",
         "number": "10",
-        "name": "10 de Copas",
+        "name": "Dez de Copas",
         "slug": "10-de-copas"
     },
     {
         "type": "minor",
         "subtype": "Copas",
-        "image": "./src/assets/images/laminas/minor/valete-de-copas.jpg",
+        "image": "./src/assets/images/laminas/minor/cups/valete-de-copas.jpg",
         "number": "11",
         "name": "Valete de Copas",
         "slug": "valete-de-copas"
@@ -243,7 +243,7 @@
     {
         "type": "minor",
         "subtype": "Copas",
-        "image": "./src/assets/images/laminas/minor/cavaleiro-de-copas.jpg",
+        "image": "./src/assets/images/laminas/minor/cups/cavaleiro-de-copas.jpg",
         "number": "12",
         "name": "Cavaleiro de Copas",
         "slug": "cavaleiro-de-copas"
@@ -251,7 +251,7 @@
     {
         "type": "minor",
         "subtype": "Copas",
-        "image": "./src/assets/images/laminas/minor/rainha-de-copas.jpg",
+        "image": "./src/assets/images/laminas/minor/cups/rainha-de-copas.jpg",
         "number": "13",
         "name": "Rainha de Copas",
         "slug": "rainha-de-copas"
@@ -259,9 +259,121 @@
     {
         "type": "minor",
         "subtype": "Copas",
-        "image": "./src/assets/images/laminas/minor/rei-de-copas.jpg",
+        "image": "./src/assets/images/laminas/minor/cups/rei-de-copas.jpg",
         "number": "14",
         "name": "Rei de Copas",
         "slug": "rei-de-copas"
+    },
+    {
+        "type": "minor",
+        "subtype": "Espadas",
+        "image": "./src/assets/images/laminas/minor/spades/as-de-espadas.jpg",
+        "number": "1",
+        "name": "As de Espadas",
+        "slug": "as-de-espadas"
+    },
+    {
+        "type": "minor",
+        "subtype": "Espadas",
+        "image": "./src/assets/images/laminas/minor/spades/2-de-espadas.jpg",
+        "number": "2",
+        "name": "Dois de Espadas",
+        "slug": "dois-de-espadas"
+    },
+    {
+        "type": "minor",
+        "subtype": "Espadas",
+        "image": "./src/assets/images/laminas/minor/spades/3-de-espadas.jpg",
+        "number": "3",
+        "name": "Três de Espadas",
+        "slug": "tres-de-espadas"
+    },
+    {
+        "type": "minor",
+        "subtype": "Espadas",
+        "image": "./src/assets/images/laminas/minor/spades/4-de-espadas.jpg",
+        "number": "4",
+        "name": "Quatro de Espadas",
+        "slug": "quatro-de-espadas"
+    },
+    {
+        "type": "minor",
+        "subtype": "Espadas",
+        "image": "./src/assets/images/laminas/minor/spades/5-de-espadas.jpg",
+        "number": "5",
+        "name": "Cinco de Espadas",
+        "slug": "cinco-de-espadas"
+    },
+    {
+        "type": "minor",
+        "subtype": "Espadas",
+        "image": "./src/assets/images/laminas/minor/spades/6-de-espadas.jpg",
+        "number": "6",
+        "name": "Seis de Espadas",
+        "slug": "seis-de-espadas"
+    },
+    {
+        "type": "minor",
+        "subtype": "Espadas",
+        "image": "./src/assets/images/laminas/minor/spades/7-de-espadas.jpg",
+        "number": "7",
+        "name": "Sete de Espadas",
+        "slug": "sete-de-espadas"
+    },
+    {
+        "type": "minor",
+        "subtype": "Espadas",
+        "image": "./src/assets/images/laminas/minor/spades/8-de-espadas.jpg",
+        "number": "8",
+        "name": "Oito de Espadas",
+        "slug": "oito-de-espadas"
+    },
+    {
+        "type": "minor",
+        "subtype": "Espadas",
+        "image": "./src/assets/images/laminas/minor/spades/9-de-espadas.jpg",
+        "number": "9",
+        "name": "Nove de Espadas",
+        "slug": "nove-de-espadas"
+    },
+    {
+        "type": "minor",
+        "subtype": "Espadas",
+        "image": "./src/assets/images/laminas/minor/spades/10-de-espadas.jpg",
+        "number": "10",
+        "name": "Dez de Espadas",
+        "slug": "dez-de-espadas"
+    },
+    {
+        "type": "minor",
+        "subtype": "Espadas",
+        "image": "./src/assets/images/laminas/minor/spades/valete-de-espadas.jpg",
+        "number": "11",
+        "name": "Valete de Espadas",
+        "slug": "valete-de-espadas"
+    },
+    {
+        "type": "minor",
+        "subtype": "Espadas",
+        "image": "./src/assets/images/laminas/minor/spades/cavaleiro-de-espadas.jpg",
+        "number": "12",
+        "name": "Cavaleiro de Espadas",
+        "slug": "cavaleiro-de-espadas"
+    },
+    {
+        "type": "minor",
+        "subtype": "Espadas",
+        "image": "./src/assets/images/laminas/minor/spades/rainha-de-espadas.jpg",
+        "number": "13",
+        "name": "Rainha de Espadas",
+        "slug": "rainha-de-espadas"
+    },
+    {
+        "type": "minor",
+        "subtype": "Espadas",
+        "image": "./src/assets/images/laminas/minor/spades/rei-de-espadas.jpg",
+        "number": "14",
+        "name": "Rei de Espadas",
+        "slug": "rei-de-espadas"
     }
 ]

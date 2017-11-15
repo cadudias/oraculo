@@ -38,5 +38,15 @@
                 </a>
             </li> 
         </ul>
+
+        <h3>Espadas</h3>
+        <ul  class="col-xs-12">        
+             <li class="col-xs-12 col-sm-6 col-md-3" ng-repeat="lamina in laminas | filter: { subtype: 'Espadas' }">
+                <a href="/lamina/{{lamina.slug}}">
+                    <h3>{{lamina.number}} - {{lamina.name}}</h3>
+                    <img class="img-responsive" src="{{lamina.image}}" />                
+                </a>
+            </li> 
+        </ul>
     </div>    
 </div>
