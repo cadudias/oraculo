@@ -1,16 +1,57 @@
 <div class="container home text-center">
     <div class="container">
-        <div class="col-sm-offset-4 col-sm-4">   
-
+        <h2>O Mago</h2>
+        <div class="col-sm-offset-4 col-md-4 col-md-offset-0 ">   
             <div class="card">   
                 <div class="card-body">
-                    <h2>O Mago</h2>
+                    
                     <img class="card-img" src="./src/assets/images/laminas/o-louco.jpg">
 
                     <a href="javascript:void(0)" ng-click="showInfo()" class="card-button circleBase">+</a>
                 </div>
             </div>
+        </div>
 
+        <div class="col-md-8 info">   
+            <div class="menus col-sm-6 col-sm-offset-4 col-md-12 col-md-offset-0">
+                <div class="menu col-md-12">   
+                    <a ng-click="showText()" href="javascript:void(0)">
+                        <div class="col-sm-1 icon">
+                            <i class="ai mercury"></i>
+                        </div>
+                        <div class="col-sm-6 title">Descrição</div>
+                        <a href="" class="col-sm-1">+</a>
+                    </a>
+
+                    <div class="text col-md-12" ng-show="show_me">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid voluptates veniam facere voluptas, sapiente architecto dolor adipisci, error qui enim! Nemo odio quam provident ea natus voluptas, non molestias repellat!</p>
+                    </div>
+                </div>
+
+                <div class="menu col-md-12">   
+                    <a href="">
+                        <div class="col-sm-1 icon">
+                            <i class="ai mercury"></i>
+                        </div>
+                        <div class="col-sm-6 title">Letra Hebraica</div>
+                        <a href="" class="col-sm-1">+</a>
+                    </a>
+                </div>
+
+                <div class="menu col-md-12">   
+                    <a href="">
+                        <div class="col-sm-1 icon">
+                            <i class="ai mercury"></i>
+                        </div>
+                        <div class="col-sm-6 title">Planeta</div>
+                        <a href="" class="col-sm-1">+</a>
+                    </a>
+                </div>
+            </div>
+
+            <div class="text col-sm-9">
+
+            </div>
         </div>
     </div>    
 </div>

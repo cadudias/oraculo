@@ -1,3 +1,37 @@
+.ai {
+    font-style:normal;
+    color:purple;
+    font-weight:bold;
+    font-size:24px;
+    line-height:24px;
+}
+.ai.aries:before {
+    content:"\2648";
+}
+.ai.mercury:before {
+    content:"\263F";
+}
+
 .card {
+
+}
+
+.info{
+    font-size: 20px;
+
+    .title{
+        text-align: left;
+        font-size: 24px;
+    }
+
+    .menu{
+        padding: 10px 0;
+    }
     
+    .text{
+        text-align: left;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: 10px;
+        //display: none;
+    }
 }
