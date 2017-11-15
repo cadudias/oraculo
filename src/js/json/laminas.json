@@ -375,5 +375,117 @@
         "number": "14",
         "name": "Rei de Espadas",
         "slug": "rei-de-espadas"
-    }
+    },
+    {
+        "type": "minor",
+        "subtype": "Paus",
+        "image": "./src/assets/images/laminas/minor/wands/as-de-paus.jpg",
+        "number": "1",
+        "name": "As de Paus",
+        "slug": "as-de-paus"
+    },
+    {
+        "type": "minor",
+        "subtype": "Paus",
+        "image": "./src/assets/images/laminas/minor/wands/2-de-paus.jpg",
+        "number": "2",
+        "name": "Dois de Paus",
+        "slug": "dois-de-paus"
+    },
+    {
+        "type": "minor",
+        "subtype": "Paus",
+        "image": "./src/assets/images/laminas/minor/wands/3-de-paus.jpg",
+        "number": "3",
+        "name": "Três de Paus",
+        "slug": "tres-de-paus"
+    },
+    {
+        "type": "minor",
+        "subtype": "Paus",
+        "image": "./src/assets/images/laminas/minor/wands/4-de-paus.jpg",
+        "number": "4",
+        "name": "Quatro de Paus",
+        "slug": "quatro-de-paus"
+    },
+    {
+        "type": "minor",
+        "subtype": "Paus",
+        "image": "./src/assets/images/laminas/minor/wands/5-de-paus.jpg",
+        "number": "5",
+        "name": "Cinco de Paus",
+        "slug": "cinco-de-paus"
+    },
+    {
+        "type": "minor",
+        "subtype": "Paus",
+        "image": "./src/assets/images/laminas/minor/wands/6-de-paus.jpg",
+        "number": "6",
+        "name": "Seis de Paus",
+        "slug": "seis-de-paus"
+    },
+    {
+        "type": "minor",
+        "subtype": "Paus",
+        "image": "./src/assets/images/laminas/minor/wands/7-de-paus.jpg",
+        "number": "7",
+        "name": "Sete de Paus",
+        "slug": "sete-de-paus"
+    },
+    {
+        "type": "minor",
+        "subtype": "Paus",
+        "image": "./src/assets/images/laminas/minor/wands/8-de-paus.jpg",
+        "number": "8",
+        "name": "Oito de Paus",
+        "slug": "oito-de-paus"
+    },
+    {
+        "type": "minor",
+        "subtype": "Paus",
+        "image": "./src/assets/images/laminas/minor/wands/9-de-paus.jpg",
+        "number": "9",
+        "name": "Nove de Paus",
+        "slug": "nove-de-paus"
+    },
+    {
+        "type": "minor",
+        "subtype": "Paus",
+        "image": "./src/assets/images/laminas/minor/wands/10-de-paus.jpg",
+        "number": "10",
+        "name": "Dez de Paus",
+        "slug": "dez-de-paus"
+    },
+    {
+        "type": "minor",
+        "subtype": "Paus",
+        "image": "./src/assets/images/laminas/minor/wands/valete-de-paus.jpg",
+        "number": "11",
+        "name": "Valete de Paus",
+        "slug": "valete-de-paus"
+    },
+    {
+        "type": "minor",
+        "subtype": "Paus",
+        "image": "./src/assets/images/laminas/minor/wands/cavaleiro-de-paus.jpg",
+        "number": "12",
+        "name": "Cavaleiro de Paus",
+        "slug": "cavaleiro-de-paus"
+    },
+    {
+        "type": "minor",
+        "subtype": "Paus",
+        "image": "./src/assets/images/laminas/minor/wands/rainha-de-paus.jpg",
+        "number": "13",
+        "name": "Rainha de Paus",
+        "slug": "rainha-de-paus"
+    },
+    {
+        "type": "minor",
+        "subtype": "Paus",
+        "image": "./src/assets/images/laminas/minor/wands/rei-de-paus.jpg",
+        "number": "14",
+        "name": "Rei de Paus",
+        "slug": "rei-de-paus"
+    }    
 ]
