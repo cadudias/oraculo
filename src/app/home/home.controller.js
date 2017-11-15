@@ -22,6 +22,15 @@ export default class HomeController {
     laminasService.getLaminas().then(laminas => {
         $scope.laminas = laminas;
     });
+      
+    $scope.selectedLamina = function($item){        
+       return laminasService.selectedLamina($item);
+    };
+
+    $scope.localSearch = function(str, laminas){      
+      return laminasService.localSearch(str, laminas);      
+    }
+
     //var vm = $scope.vm = laminasService.getLaminas();
     //this.scope = $scope;
 //console.log(laminasService)
