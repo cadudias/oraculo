@@ -487,5 +487,117 @@
         "number": "14",
         "name": "Rei de Paus",
         "slug": "rei-de-paus"
-    }    
+    },
+    {
+        "type": "minor",
+        "subtype": "Ouros",
+        "image": "./src/assets/images/laminas/minor/pentacles/as-de-ouros.jpg",
+        "number": "1",
+        "name": "As de Ouros",
+        "slug": "as-de-ouros"
+    },
+    {
+        "type": "minor",
+        "subtype": "Ouros",
+        "image": "./src/assets/images/laminas/minor/pentacles/2-de-ouros.jpg",
+        "number": "2",
+        "name": "Dois de Ouros",
+        "slug": "dois-de-ouros"
+    },
+    {
+        "type": "minor",
+        "subtype": "Ouros",
+        "image": "./src/assets/images/laminas/minor/pentacles/3-de-ouros.jpg",
+        "number": "3",
+        "name": "Três de Ouros",
+        "slug": "tres-de-ouros"
+    },
+    {
+        "type": "minor",
+        "subtype": "Ouros",
+        "image": "./src/assets/images/laminas/minor/pentacles/4-de-ouros.jpg",
+        "number": "4",
+        "name": "Quatro de Ouros",
+        "slug": "quatro-de-ouros"
+    },
+    {
+        "type": "minor",
+        "subtype": "Ouros",
+        "image": "./src/assets/images/laminas/minor/pentacles/5-de-ouros.jpg",
+        "number": "5",
+        "name": "Cinco de Ouros",
+        "slug": "cinco-de-ouros"
+    },
+    {
+        "type": "minor",
+        "subtype": "Ouros",
+        "image": "./src/assets/images/laminas/minor/pentacles/6-de-ouros.jpg",
+        "number": "1",
+        "name": "Seis de Ouros",
+        "slug": "seis-de-ouros"
+    },
+    {
+        "type": "minor",
+        "subtype": "Ouros",
+        "image": "./src/assets/images/laminas/minor/pentacles/7-de-ouros.jpg",
+        "number": "7",
+        "name": "Sete de Ouros",
+        "slug": "sete-de-ouros"
+    },
+    {
+        "type": "minor",
+        "subtype": "Ouros",
+        "image": "./src/assets/images/laminas/minor/pentacles/8-de-ouros.jpg",
+        "number": "8",
+        "name": "Oito de Ouros",
+        "slug": "oito-de-ouros"
+    },
+    {
+        "type": "minor",
+        "subtype": "Ouros",
+        "image": "./src/assets/images/laminas/minor/pentacles/9-de-ouros.jpg",
+        "number": "9",
+        "name": "Nove de Ouros",
+        "slug": "nove-de-ouros"
+    },
+    {
+        "type": "minor",
+        "subtype": "Ouros",
+        "image": "./src/assets/images/laminas/minor/pentacles/10-de-ouros.jpg",
+        "number": "10",
+        "name": "Dez de Ouros",
+        "slug": "dez-de-ouros"
+    },
+    {
+        "type": "minor",
+        "subtype": "Ouros",
+        "image": "./src/assets/images/laminas/minor/pentacles/valete-de-ouros.jpg",
+        "number": "11",
+        "name": "Valete de Ouros",
+        "slug": "valete-de-ouros"
+    },
+    {
+        "type": "minor",
+        "subtype": "Ouros",
+        "image": "./src/assets/images/laminas/minor/pentacles/cavaleiro-de-ouros.jpg",
+        "number": "12",
+        "name": "Cavaleiro de Ouros",
+        "slug": "cavaleiro-de-ouros"
+    },
+    {
+        "type": "minor",
+        "subtype": "Ouros",
+        "image": "./src/assets/images/laminas/minor/pentacles/rainha-de-ouros.jpg",
+        "number": "13",
+        "name": "Rainha de Ouros",
+        "slug": "rainha-de-ouros"
+    },
+    {
+        "type": "minor",
+        "subtype": "Ouros",
+        "image": "./src/assets/images/laminas/minor/pentacles/rei-de-ouros.jpg",
+        "number": "14",
+        "name": "Rei de Ouros",
+        "slug": "rei-de-ouros"
+    }        
 ]
