@@ -1,0 +1,30 @@
+[
+    {
+        "type": "major",
+        "image": "./src/assets/images/laminas/o-louco.jpg",
+        "number": "0",
+        "name": "O Louco",
+        "slug": "o-louco",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid voluptates veniam facere voluptas, sapiente architecto dolor adipisci, error qui enim! Nemo odio quam provident ea natus voluptas, non molestias repellat!",
+        "hebrew_letter": {
+            "symbol": "mercury",
+            "text": "Lorem ispum dolor sit amte"
+        },
+        "numerology": {
+            "symbol": "mercury",
+            "text": "Lorem ispum dolor sit amte"
+        },
+        "astrology": {
+            "symbol": "mercury",
+            "text": "Lorem ispum dolor sit amte"
+        },
+        "element": {
+            "symbol": "mercury",
+            "text": "Lorem ispum dolor sit amte"
+        },
+        "cabala_path": {
+            "symbol": "mercury",
+            "text": "Lorem ispum dolor sit amte"
+        }
+    }
+]

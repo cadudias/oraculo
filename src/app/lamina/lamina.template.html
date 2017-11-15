@@ -1,11 +1,11 @@
 <div class="container home text-center">
     <div class="container">
-        <h2>O Mago</h2>
+        <h2>{{lamina.name}}</h2>
         <div class="col-sm-offset-4 col-md-4 col-md-offset-0 ">   
             <div class="card">   
                 <div class="card-body">
                     
-                    <img class="card-img" src="./src/assets/images/laminas/o-louco.jpg">
+                    <img class="card-img" src="{{lamina.image}}">
 
                     <a href="javascript:void(0)" ng-click="showInfo()" class="card-button circleBase">+</a>
                 </div>
@@ -15,37 +15,86 @@
         <div class="col-md-8 info">   
             <div class="menus col-sm-6 col-sm-offset-4 col-md-12 col-md-offset-0">
                 <div class="menu col-md-12">   
-                    <a ng-click="showText()" href="javascript:void(0)">
+                    <a ng-click="showText(1)" href="javascript:void(0)">
                         <div class="col-sm-1 icon">
-                            <i class="ai mercury"></i>
                         </div>
                         <div class="col-sm-6 title">Descrição</div>
                         <a href="" class="col-sm-1">+</a>
                     </a>
 
-                    <div class="text col-md-12" ng-show="show_me">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid voluptates veniam facere voluptas, sapiente architecto dolor adipisci, error qui enim! Nemo odio quam provident ea natus voluptas, non molestias repellat!</p>
+                    <div class="text col-md-12" ng-show="cClass == 1">
+                        <p>{{lamina.description}}</p>
+                    </div>
+                </div>
+                
+                <div class="menu col-md-12">
+                    <a ng-click="showText(2)" href="javascript:void(0)">
+                        <div class="col-sm-1 icon">
+                            <i class="ai {{lamina.hebrew_letter.symbol}}"></i>
+                        </div>
+                        <div class="col-sm-6 title">Letra Hebráica</div>
+                        <a href="" class="col-sm-1">+</a>
+                    </a>
+
+                    <div class="text col-md-12" ng-show="cClass == 2">
+                        <p>{{lamina.hebrew_letter.text}}</p>
                     </div>
                 </div>
 
                 <div class="menu col-md-12">   
-                    <a href="">
+                   <a ng-click="showText(3)" href="javascript:void(0)">
                         <div class="col-sm-1 icon">
-                            <i class="ai mercury"></i>
+                            <i class="ai {{lamina.numerology.symbol}}"></i>
                         </div>
-                        <div class="col-sm-6 title">Letra Hebraica</div>
+                        <div class="col-sm-6 title">Numerologia</div>
                         <a href="" class="col-sm-1">+</a>
                     </a>
+
+                    <div class="text col-md-12" ng-show="cClass == 3">
+                        <p>{{lamina.numerology.text}}</p>
+                    </div>
                 </div>
 
                 <div class="menu col-md-12">   
-                    <a href="">
+                    <a ng-click="showText(4)" href="javascript:void(0)">
                         <div class="col-sm-1 icon">
-                            <i class="ai mercury"></i>
+                            <i class="ai {{lamina.astrology.symbol}}"></i>
                         </div>
-                        <div class="col-sm-6 title">Planeta</div>
+                        <div class="col-sm-6 title">Astrologia</div>
                         <a href="" class="col-sm-1">+</a>
                     </a>
+
+                    <div class="text col-md-12" ng-show="cClass == 4">
+                        <p>{{lamina.astrology.text}}</p>
+                    </div>
+                </div>
+
+                <div class="menu col-md-12">   
+                    <a ng-click="showText(5)" href="javascript:void(0)">
+                        <div class="col-sm-1 icon">
+                            <i class="ai {{lamina.element.symbol}}"></i>
+                        </div>
+                        <div class="col-sm-6 title">Elemento</div>
+                        <a href="" class="col-sm-1">+</a>
+                    </a>
+
+                    <div class="text col-md-12" ng-show="cClass == 5">
+                        <p>{{lamina.element.text}}</p>
+                    </div>
+                </div>
+
+                <div class="menu col-md-12">   
+                    <a ng-click="showText(6)" href="javascript:void(0)">
+                        <div class="col-sm-1 icon">
+                            <i class="ai {{lamina.cabala_path.symbol}}"></i>
+                        </div>
+                        <div class="col-sm-6 title">Caminho na Cabala</div>
+                        <a href="" class="col-sm-1">+</a>
+                    </a>
+
+                    <div class="text col-md-12" ng-show="cClass == 6">
+                        <p>{{lamina.cabala_path.text}}</p>
+                    </div>
                 </div>
             </div>
 

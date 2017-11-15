@@ -1,14 +1,14 @@
 export default class LaminaController {
-  constructor($scope, $timeout, laminasService) {
-    this.message = 'Hello'
-    console.log('Lamina controller')
+  constructor($scope, laminasService, $stateParams) {
+    // carrega a lamina correspondente
+    const slug = $stateParams.slug;
 
-    $scope.show_me = false;
+    $scope.lamina = laminasService.getLamina(slug).then(lamina => {
+      $scope.lamina = lamina[0]
+    })
 
-    $scope.showText = function(){      
-      console.log('aaaaaaa')
-      $scope.show_me = !$scope.show_me;
+    $scope.showText = function(elementNumber){
+      $scope.cClass = elementNumber;
     }
-
   }
 }

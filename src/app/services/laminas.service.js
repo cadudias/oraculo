@@ -36,6 +36,11 @@ class LaminasService
         return result;
     }
 
+    getLamina(slug){
+        var result = HTTP.get(this).get(`./src/js/json/${slug}.json`).then(result => result.data );
+        return result;
+    }
+
     localSearch(str, laminas){        
         var matches = [];
         laminas.forEach(function(lamina) {
@@ -49,7 +54,8 @@ class LaminasService
         return matches;
     }
 
-    selectedLamina($item){                       
+    selectedLamina($item){   
+        $scope.selectedLamina = $item.originalObject.slug;
         this.$state.go('lamina', {
             slug: $item.originalObject.slug
         });
