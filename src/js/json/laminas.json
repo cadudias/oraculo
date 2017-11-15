@@ -2,8 +2,378 @@
     {
         "type": "major",
         "image": "./src/assets/images/laminas/o-louco.jpg",
+        "number": "0",
+        "name": "O Louco",
+        "slug": "o-louco"
+    },
+    {
+        "type": "major",
+        "image": "./src/assets/images/laminas/o-mago.jpg",
         "number": "1",
         "name": "O Mago",
         "slug": "o-mago"
+    },
+    {
+        "type": "major",
+        "image": "./src/assets/images/laminas/a-sacerdotisa.jpg",
+        "number": "2",
+        "name": "A Sacerdotisa",
+        "slug": "a-sacerdotisa"
+    },
+    {
+        "type": "major",
+        "image": "./src/assets/images/laminas/a-imperatriz.jpg",
+        "number": "3",
+        "name": "A Imperatriz",
+        "slug": "a-imperatriz"
+    },
+    {
+        "type": "major",
+        "image": "./src/assets/images/laminas/o-imperador.jpg",
+        "number": "4",
+        "name": "O Imperador",
+        "slug": "o-imperador"
+    },
+    {
+        "type": "major",
+        "image": "./src/assets/images/laminas/o-papa.jpg",
+        "number": "5",
+        "name": "O Papa",
+        "slug": "o-papa"
+    },
+    {
+        "type": "major",
+        "image": "./src/assets/images/laminas/os-enamorados.jpg",
+        "number": "6",
+        "name": "Os Enamorados",
+        "slug": "os-enamorados"
+    },
+    {
+        "type": "major",
+        "image": "./src/assets/images/laminas/o-carro.jpg",
+        "number": "7",
+        "name": "O Carro",
+        "slug": "o-carro"
+    },
+    {
+        "type": "major",
+        "image": "./src/assets/images/laminas/a-forca.jpg",
+        "number": "8",
+        "name": "A Força",
+        "slug": "a-forca"
+    },
+    {
+        "type": "major",
+        "image": "./src/assets/images/laminas/o-eremita.jpg",
+        "number": "9",
+        "name": "O Eremita",
+        "slug": "o-eremita"
+    },
+    {
+        "type": "major",
+        "image": "./src/assets/images/laminas/a-roda-da-fortuna.jpg",
+        "number": "10",
+        "name": "A Roda da Fortuna",
+        "slug": "a-roda-da-fortuna"
+    },
+    {
+        "type": "major",
+        "image": "./src/assets/images/laminas/a-justica.jpg",
+        "number": "11",
+        "name": "A Justiça",
+        "slug": "a-justica"
+    },
+    {
+        "type": "major",
+        "image": "./src/assets/images/laminas/o-enforcado.jpg",
+        "number": "12",
+        "name": "O Enforcado",
+        "slug": "o-enforcado"
+    },
+    {
+        "type": "major",
+        "image": "./src/assets/images/laminas/a-morte.jpg",
+        "number": "13",
+        "name": "A Morte",
+        "slug": "a-morte"
+    },
+    {
+        "type": "major",
+        "image": "./src/assets/images/laminas/a-temperanca.jpg",
+        "number": "14",
+        "name": "A Temperança",
+        "slug": "a-temperanca"
+    },
+    {
+        "type": "major",
+        "image": "./src/assets/images/laminas/o-diabo.jpg",
+        "number": "15",
+        "name": "O Diabo",
+        "slug": "o-diabo"
+    },
+    {
+        "type": "major",
+        "image": "./src/assets/images/laminas/a-torre.jpg",
+        "number": "16",
+        "name": "A Torre",
+        "slug": "a-torre"
+    },
+    {
+        "type": "major",
+        "image": "./src/assets/images/laminas/a-estrela.jpg",
+        "number": "17",
+        "name": "A Estrela",
+        "slug": "a-estrela"
+    },
+    {
+        "type": "major",
+        "image": "./src/assets/images/laminas/a-lua.jpg",
+        "number": "18",
+        "name": "A Lua",
+        "slug": "a-lua"
+    },
+    {
+        "type": "major",
+        "image": "./src/assets/images/laminas/o-sol.jpg",
+        "number": "19",
+        "name": "O Sol",
+        "slug": "o-sol"
+    },
+    {
+        "type": "major",
+        "image": "./src/assets/images/laminas/o-julgamento.jpg",
+        "number": "20",
+        "name": "O Julgamento",
+        "slug": "o-julgamento"
+    },
+    {
+        "type": "major",
+        "image": "./src/assets/images/laminas/o-mundo.jpg",
+        "number": "21",
+        "name": "O Mundo",
+        "slug": "o-mundo"
+    },
+    {
+        "type": "minor",
+        "subtype": "Copas",
+        "image": "./src/assets/images/laminas/minor/cups/as-de-copas.jpg",
+        "number": "1",
+        "name": "As de Copas",
+        "slug": "as-de-copas"
+    },    
+    {
+        "type": "minor",
+        "subtype": "Copas",
+        "image": "./src/assets/images/laminas/minor/cups/2-de-copas.jpg",
+        "number": "2",
+        "name": "Dois de Copas",
+        "slug": "dois-de-copas"
+    },
+    {
+        "type": "minor",
+        "subtype": "Copas",
+        "image": "./src/assets/images/laminas/minor/cups/3-de-copas.jpg",
+        "number": "3",
+        "name": "Três de Copas",
+        "slug": "3-de-copas"
+    },
+    {
+        "type": "minor",
+        "subtype": "Copas",
+        "image": "./src/assets/images/laminas/minor/cups/4-de-copas.jpg",
+        "number": "4",
+        "name": "Quatro de Copas",
+        "slug": "4-de-copas"
+    },
+    {
+        "type": "minor",
+        "subtype": "Copas",
+        "image": "./src/assets/images/laminas/minor/cups/5-de-copas.jpg",
+        "number": "5",
+        "name": "Cinco de Copas",
+        "slug": "5-de-copas"
+    },
+    {
+        "type": "minor",
+        "subtype": "Copas",
+        "image": "./src/assets/images/laminas/minor/cups/6-de-copas.jpg",
+        "number": "6",
+        "name": "Seis de Copas",
+        "slug": "6-de-copas"
+    },
+    {
+        "type": "minor",
+        "subtype": "Copas",
+        "image": "./src/assets/images/laminas/minor/cups/7-de-copas.jpg",
+        "number": "7",
+        "name": "Sete de Copas",
+        "slug": "7-de-copas"
+    },
+    {
+        "type": "minor",
+        "subtype": "Copas",
+        "image": "./src/assets/images/laminas/minor/cups/8-de-copas.jpg",
+        "number": "8",
+        "name": "Oito de Copas",
+        "slug": "8-de-copas"
+    },
+    {
+        "type": "minor",
+        "image": "./src/assets/images/laminas/minor/cups/9-de-copas.jpg",
+        "number": "9",
+        "name": "Nove de Copas",
+        "slug": "9-de-copas"
+    },
+    {
+        "type": "minor",
+        "subtype": "Copas",
+        "image": "./src/assets/images/laminas/minor/cups/10-de-copas.jpg",
+        "number": "10",
+        "name": "Dez de Copas",
+        "slug": "10-de-copas"
+    },
+    {
+        "type": "minor",
+        "subtype": "Copas",
+        "image": "./src/assets/images/laminas/minor/cups/valete-de-copas.jpg",
+        "number": "11",
+        "name": "Valete de Copas",
+        "slug": "valete-de-copas"
+    },
+    {
+        "type": "minor",
+        "subtype": "Copas",
+        "image": "./src/assets/images/laminas/minor/cups/cavaleiro-de-copas.jpg",
+        "number": "12",
+        "name": "Cavaleiro de Copas",
+        "slug": "cavaleiro-de-copas"
+    },
+    {
+        "type": "minor",
+        "subtype": "Copas",
+        "image": "./src/assets/images/laminas/minor/cups/rainha-de-copas.jpg",
+        "number": "13",
+        "name": "Rainha de Copas",
+        "slug": "rainha-de-copas"
+    },
+    {
+        "type": "minor",
+        "subtype": "Copas",
+        "image": "./src/assets/images/laminas/minor/cups/rei-de-copas.jpg",
+        "number": "14",
+        "name": "Rei de Copas",
+        "slug": "rei-de-copas"
+    },
+    {
+        "type": "minor",
+        "subtype": "Espadas",
+        "image": "./src/assets/images/laminas/minor/spades/as-de-espadas.jpg",
+        "number": "1",
+        "name": "As de Espadas",
+        "slug": "as-de-espadas"
+    },
+    {
+        "type": "minor",
+        "subtype": "Espadas",
+        "image": "./src/assets/images/laminas/minor/spades/2-de-espadas.jpg",
+        "number": "2",
+        "name": "Dois de Espadas",
+        "slug": "dois-de-espadas"
+    },
+    {
+        "type": "minor",
+        "subtype": "Espadas",
+        "image": "./src/assets/images/laminas/minor/spades/3-de-espadas.jpg",
+        "number": "3",
+        "name": "Três de Espadas",
+        "slug": "tres-de-espadas"
+    },
+    {
+        "type": "minor",
+        "subtype": "Espadas",
+        "image": "./src/assets/images/laminas/minor/spades/4-de-espadas.jpg",
+        "number": "4",
+        "name": "Quatro de Espadas",
+        "slug": "quatro-de-espadas"
+    },
+    {
+        "type": "minor",
+        "subtype": "Espadas",
+        "image": "./src/assets/images/laminas/minor/spades/5-de-espadas.jpg",
+        "number": "5",
+        "name": "Cinco de Espadas",
+        "slug": "cinco-de-espadas"
+    },
+    {
+        "type": "minor",
+        "subtype": "Espadas",
+        "image": "./src/assets/images/laminas/minor/spades/6-de-espadas.jpg",
+        "number": "6",
+        "name": "Seis de Espadas",
+        "slug": "seis-de-espadas"
+    },
+    {
+        "type": "minor",
+        "subtype": "Espadas",
+        "image": "./src/assets/images/laminas/minor/spades/7-de-espadas.jpg",
+        "number": "7",
+        "name": "Sete de Espadas",
+        "slug": "sete-de-espadas"
+    },
+    {
+        "type": "minor",
+        "subtype": "Espadas",
+        "image": "./src/assets/images/laminas/minor/spades/8-de-espadas.jpg",
+        "number": "8",
+        "name": "Oito de Espadas",
+        "slug": "oito-de-espadas"
+    },
+    {
+        "type": "minor",
+        "subtype": "Espadas",
+        "image": "./src/assets/images/laminas/minor/spades/9-de-espadas.jpg",
+        "number": "9",
+        "name": "Nove de Espadas",
+        "slug": "nove-de-espadas"
+    },
+    {
+        "type": "minor",
+        "subtype": "Espadas",
+        "image": "./src/assets/images/laminas/minor/spades/10-de-espadas.jpg",
+        "number": "10",
+        "name": "Dez de Espadas",
+        "slug": "dez-de-espadas"
+    },
+    {
+        "type": "minor",
+        "subtype": "Espadas",
+        "image": "./src/assets/images/laminas/minor/spades/valete-de-espadas.jpg",
+        "number": "11",
+        "name": "Valete de Espadas",
+        "slug": "valete-de-espadas"
+    },
+    {
+        "type": "minor",
+        "subtype": "Espadas",
+        "image": "./src/assets/images/laminas/minor/spades/cavaleiro-de-espadas.jpg",
+        "number": "12",
+        "name": "Cavaleiro de Espadas",
+        "slug": "cavaleiro-de-espadas"
+    },
+    {
+        "type": "minor",
+        "subtype": "Espadas",
+        "image": "./src/assets/images/laminas/minor/spades/rainha-de-espadas.jpg",
+        "number": "13",
+        "name": "Rainha de Espadas",
+        "slug": "rainha-de-espadas"
+    },
+    {
+        "type": "minor",
+        "subtype": "Espadas",
+        "image": "./src/assets/images/laminas/minor/spades/rei-de-espadas.jpg",
+        "number": "14",
+        "name": "Rei de Espadas",
+        "slug": "rei-de-espadas"
     }
 ]
