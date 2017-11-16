@@ -1,0 +1,30 @@
+[
+    {
+        "type": "major",
+        "image": "./src/assets/images/laminas/a-justica.jpg",
+        "number": "11",
+        "name": "A Justiça",
+        "slug": "a-justiça",
+        "description": "A Justiça: O equilíbrio <br/> <strong>Significado: </strong> Mente Equilibrada. Resolução judicial favorável. Recompensa justa. Personalidade desejosa de livrar-se do supérfluo: idéias equivocadas ou errôneas, conhecimentos inúteis etc. Bom carma. <br/><strong>Inverso: </strong> Injustiça. Maus resultado num assunto legal ou econômico pendente. É aconselhável que seja cuidadoso ao julgar os demais, evitando a severidade excessiva. Ingratidão. Recompensa injusta.",
+        "hebrew_letter": {
+            "symbol": "lamed",
+            "text": ""
+        },
+        "numerology": {
+            "symbol": "11",
+            "text": "O número 11 no Destino mostra a inspiração. São pessoas altamente sensíveis e intuitivas, possuindo destino 11não só a facilidade de ver a realidade atual, mas também seus desdobramentos, enxergando longe. É objetivo, concentrado, prestativo, expansivo, intuitivo, inspirador, espiritualizado, humanitário, psíquico e com habilidades de cura.Pode se tornar excelentes quando se especializam em uma área específica.São sensíveis, idealistas, normalmente enérgicos, com grandes poderes mentais para auto-disciplina, concentrando-se em seus objetivos. É versátil e imaginativo, precisando expressar seu poder emocional e criativo.Normalmente obtêm sucesso através de sua perseverança e compostura.Inspiração, idealismo e inovação são importantíssimos para um destino 11. É a combinação perfeita entre confiança e humildade, que o desafia para seguir trabalhando sempre em busca de sua independência espiritual e financeira.LADO NEGATIVONormalmente sofrem com nervosismo e impaciência. Tem tendência a vícios, magoa-se facilmente, é hipersensível, excessivamente emotivo, tem complexo de superioridade, falta de objetivos, de certo modo egoísta, podendo tornar-se desonesto, quando quer conseguir algo que não conseguiu como queria honestamente.Por ser altamente sensível, consegue captar co maior intensidade as imperfeições das pessoas e do mundo, e com isso vai acumulando sofrimentos e insatisfações alheias, devendo usar isso para melhorar seus conceitos sobre tudo e todos.ORIENTAÇÕESComo possui certos atributos que os demais não possuem, deve usá-los para melhorar a própria vida e a vida dos demais, melhorando assim também o nosso planeta.Deve aprender a exigir menos das outras pessoas, pois elas não precisam fazer ou compreender tudo igual à você.Deve evitar o excesso de preocupação consigo mesmo e aprender a trabalhar com os demais, mesmo que precise de liberdade para agir de forma independente. Quando combina sua habilidade, praticidade e imaginação, pode obter resultados extraordinários.Precisa confiar na própria intuição, ter fé e investigar o misticismo, mantendo a humildade e servindo de inspiração para os demais através do seu exemplo."
+        },
+        "astrology": {
+            "symbol": "mercury",
+            "text": "Lorem ispum dolor sit amte"
+        },
+        "element": {
+            "symbol": "mercury",
+            "text": "Lorem ispum dolor sit amte"
+        },
+        "cabala_path": {
+            "symbol": "mercury",
+            "text": "Lorem ispum dolor sit amte"
+        }
+    }
+]
