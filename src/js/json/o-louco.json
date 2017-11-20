@@ -5,7 +5,7 @@
         "number": "0",
         "name": "O Louco",
         "slug": "o-louco",
-        "description": "<strong>Significado: </strong>Decisão importante. A pessoa encontra-se diante de uma escolha que deve decidir com cuidado, mas também com coragem e, sobretudo, atendendo a sua intuição e seus impulsos. Os riscos podem ser assumidos. <strong>Inverso: </strong>Há perigo de que escolha mal. É aconselhável atuar com a máxima precaução e prudência.",
+        "description": "<strong>Significado: </strong>Decisão importante. A pessoa encontra-se diante de uma escolha que deve decidir com cuidado, mas também com coragem e, sobretudo, atendendo a sua intuição e seus impulsos. Os riscos podem ser assumidos. <br/><strong>Inverso: </strong>Há perigo de que escolha mal. É aconselhável atuar com a máxima precaução e prudência.",
         "hebrew_letter": {
             "symbol": "aleph",
             "text": "Nascer, Equilíbrio, Peito"
@@ -16,11 +16,13 @@
         },
         "astrology": {
             "symbol": "sol",
-            "text": "Sol"
+            "name": "Sol",
+            "text": null
         },
         "element": {
             "symbol": "water",
-            "text": "Água"
+            "name": "Água",
+            "text": null
         },
         "cabala_path": {
             "symbol": "11º Keter - Hokhmah",
@@ -28,7 +30,8 @@
         },
         "zodiac_sign":{
             "symbol": "sagitario",
-            "text": "Sagitário"
+            "name": "Sagitário",
+            "text": null
         }
     }
 ]

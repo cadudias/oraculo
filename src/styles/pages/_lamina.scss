@@ -9,6 +9,10 @@
     .menu{
         padding: 10px 0;
 
+        a{
+            color: rebeccapurple;
+        }
+
         &:hover{
             color: #000;
         }
@@ -19,11 +23,16 @@
         font-family: 'Roboto', sans-serif;
         margin-top: 10px;
         //display: none;
+
+        p{
+            padding-left: 60px;
+        }
     }
 
     .icon i{
         position: relative;
         top: 5px;
+        color: black;
     }
     
 }

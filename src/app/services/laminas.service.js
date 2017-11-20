@@ -37,7 +37,8 @@ class LaminasService
     }
 
     selectedLamina($item){   
-        $scope.selectedLamina = $item.originalObject.slug;
+        //$scope.selectedLamina = $item.originalObject.slug;
+        console.log($item.originalObject.slug)
         this.$state.go('lamina', {
             slug: $item.originalObject.slug
         });

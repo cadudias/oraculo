@@ -7,7 +7,7 @@
                     
                     <img class="card-img" src="{{lamina.image}}">
 
-                    <a href="javascript:void(0)" ng-click="showInfo()" class="card-button circleBase">+</a>
+                    <!-- <a href="javascript:void(0)" ng-click="showInfo()" class="card-button circleBase">+</a> -->
                 </div>
             </div>
         </div>
@@ -21,15 +21,63 @@
                         </div>
                         <div class="col-sm-6 title">Descrição</div>
                         <a href="" class="col-sm-1">
-                            <i class="fa fa-chevron-down"></i>
+                            <i class="fa fa-chevron-down" ng-if="lamina.description"></i>
                         </a>
                     </a>
 
-                    <div class="text col-md-12" ng-show="cClass == 1">
-                        <p>{{lamina.description}}</p>
+                    <div class="text col-md-12" ng-if="lamina.description" ng-show="cClass == 1">
+                        <p ng-bind-html="lamina.description"></p>
                     </div>
                 </div>
                 
+                <div class="menu col-md-12">   
+                    <a ng-click="showText(7)" href="javascript:void(0)">
+                        <div class="col-sm-1 icon">
+                            <i class="ai {{lamina.zodiac_sign.symbol}}"></i>
+                        </div>
+                        <div class="col-sm-6 title">Simbolo do Zodiaco: {{lamina.zodiac_sign.name}}</div>
+                        <a href="" class="col-sm-1">
+                            <i class="fa fa-chevron-down" ng-if="lamina.zodiac_sign.text"></i>
+                        </a>
+                    </a>
+
+                    <div class="text col-md-12" ng-if="lamina.zodiac_sign.text" ng-show="cClass == 7">
+                        <p>{{lamina.zodiac_sign.text}}</p>
+                    </div>
+                </div>
+
+                <div class="menu col-md-12">   
+                    <a ng-click="showText(5)" href="javascript:void(0)">
+                        <div class="col-sm-1 icon">
+                            <i class="ai {{lamina.element.symbol}}"></i>
+                        </div>
+                        <div class="col-sm-6 title">Elemento: {{lamina.element.name}}</div>
+                        <a href="" class="col-sm-1">
+                            <i class="fa fa-chevron-down" ng-if="lamina.element.text"></i>
+                        </a>
+                    </a>
+
+                    <div class="text col-md-12" ng-if="lamina.element.text" ng-show="cClass == 5">
+                        <p>{{lamina.element.text}}</p>
+                    </div>
+                </div>
+
+                <div class="menu col-md-12">   
+                    <a ng-click="showText(4)" href="javascript:void(0)">
+                        <div class="col-sm-1 icon">
+                            <i class="ai {{lamina.astrology.symbol}}"></i>
+                        </div>
+                        <div class="col-sm-6 title">Astrologia: {{lamina.astrology.name}}</div>
+                        <a href="" class="col-sm-1">
+                            <i class="fa fa-chevron-down" ng-if="lamina.astrology.text"></i>
+                        </a>
+                    </a>
+
+                    <div class="text col-md-12" ng-if="lamina.astrology.text" ng-show="cClass == 4">
+                        <p>{{lamina.astrology.text}}</p>
+                    </div>
+                </div>      
+
                 <div class="menu col-md-12">
                     <a ng-click="showText(2)" href="javascript:void(0)">
                         <div class="col-sm-1 icon">
@@ -37,11 +85,11 @@
                         </div>
                         <div class="col-sm-6 title">Letra Hebráica</div>
                         <a href="" class="col-sm-1">
-                            <i class="fa fa-chevron-down"></i>
+                            <i class="fa fa-chevron-down" ng-if="lamina.hebrew_letter.text"></i>
                         </a>
                     </a>
 
-                    <div class="text col-md-12" ng-show="cClass == 2">
+                    <div class="text col-md-12" ng-if="lamina.hebrew_letter.text" ng-show="cClass == 2">
                         <p>{{lamina.hebrew_letter.text}}</p>
                     </div>
                 </div>
@@ -53,78 +101,30 @@
                         </div>
                         <div class="col-sm-6 title">Numerologia</div>
                         <a href="" class="col-sm-1">
-                            <i class="fa fa-chevron-down"></i>
+                            <i class="fa fa-chevron-down" ng-if="lamina.numerology.text"></i>
                         </a>
                     </a>
 
-                    <div class="text col-md-12" ng-show="cClass == 3">
+                    <div class="text col-md-12" ng-if="lamina.numerology.text" ng-show="cClass == 3">
                         <p>{{lamina.numerology.text}}</p>
                     </div>
-                </div>
-
-                <div class="menu col-md-12">   
-                    <a ng-click="showText(4)" href="javascript:void(0)">
-                        <div class="col-sm-1 icon">
-                            <i class="ai {{lamina.astrology.symbol}}"></i>
-                        </div>
-                        <div class="col-sm-6 title">Astrologia</div>
-                        <a href="" class="col-sm-1">
-                            <i class="fa fa-chevron-down"></i>
-                        </a>
-                    </a>
-
-                    <div class="text col-md-12" ng-show="cClass == 4">
-                        <p>{{lamina.astrology.text}}</p>
-                    </div>
-                </div>
-
-                <div class="menu col-md-12">   
-                    <a ng-click="showText(5)" href="javascript:void(0)">
-                        <div class="col-sm-1 icon">
-                            <i class="ai {{lamina.element.symbol}}"></i>
-                        </div>
-                        <div class="col-sm-6 title">Elemento</div>
-                        <a href="" class="col-sm-1">
-                            <i class="fa fa-chevron-down"></i>
-                        </a>
-                    </a>
-
-                    <div class="text col-md-12" ng-show="cClass == 5">
-                        <p>{{lamina.element.text}}</p>
-                    </div>
-                </div>
+                </div>                          
 
                 <div class="menu col-md-12">   
                     <a ng-click="showText(6)" href="javascript:void(0)">
                         <div class="col-sm-1 icon">
                             <i class="cabala-ico"></i>
                         </div>
-                        <div class="col-sm-6 title">Caminho na Cabala - {{lamina.cabala_path.symbol}}</div>
+                        <div class="col-sm-6 title">Caminho na Cabala: {{lamina.cabala_path.symbol}}</div>
                         <a href="" class="col-sm-1">
-                            <i class="fa fa-chevron-down"></i>
+                            <i class="fa fa-chevron-down" ng-if="lamina.cabala_path.text"></i>
                         </a>
                     </a>
 
-                    <div class="text col-md-12" ng-show="cClass == 6">
+                    <div class="text col-md-12" ng-if="lamina.cabala_path.text" ng-show="cClass == 6">
                         <p>{{lamina.cabala_path.text}}</p>
                     </div>
-                </div>
-
-                <div class="menu col-md-12">   
-                    <a ng-click="showText(7)" href="javascript:void(0)">
-                        <div class="col-sm-1 icon">
-                            <i class="ai {{lamina.zodiac_sign.symbol}}"></i>
-                        </div>
-                        <div class="col-sm-6 title">Simbolo do Zodiaco</div>
-                        <a href="" class="col-sm-1">
-                            <i class="fa fa-chevron-down"></i>
-                        </a>
-                    </a>
-
-                    <div class="text col-md-12" ng-show="cClass == 7">
-                        <p>{{lamina.zodiac_sign.text}}</p>
-                    </div>
-                </div>
+                </div>                
             </div>
 
             <div class="text col-sm-9">
