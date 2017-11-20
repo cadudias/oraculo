@@ -19,9 +19,9 @@
                         <div class="col-sm-1 icon">
                             <i class="fa fa-list"></i>
                         </div>
-                        <div class="col-sm-6 title">Descrição</div>
+                        <div class="col-sm-6 title" ng-class="cClass == 1 ? 'active' : ''">Descrição</div>
                         <a href="" class="col-sm-1">
-                            <i class="fa fa-chevron-down" ng-if="lamina.description"></i>
+                            <i class="fa" ng-class="cClass == 1 ? 'fa-chevron-up' : 'fa-chevron-down'" ng-if="lamina.description"></i>
                         </a>
                     </a>
 
@@ -35,9 +35,9 @@
                         <div class="col-sm-1 icon">
                             <i class="ai {{lamina.zodiac_sign.symbol}}"></i>
                         </div>
-                        <div class="col-sm-6 title">Simbolo do Zodiaco: {{lamina.zodiac_sign.name}}</div>
+                        <div class="col-sm-6 title" ng-class="cClass == 7 ? 'active' : ''">Simbolo do Zodiaco: {{lamina.zodiac_sign.name}}</div>
                         <a href="" class="col-sm-1">
-                            <i class="fa fa-chevron-down" ng-if="lamina.zodiac_sign.text"></i>
+                            <i class="fa" ng-class="cClass == 7 ? 'fa-chevron-up' : 'fa-chevron-down'" ng-if="lamina.zodiac_sign.text"></i>
                         </a>
                     </a>
 
@@ -51,9 +51,9 @@
                         <div class="col-sm-1 icon">
                             <i class="ai {{lamina.element.symbol}}"></i>
                         </div>
-                        <div class="col-sm-6 title">Elemento: {{lamina.element.name}}</div>
+                        <div class="col-sm-6 title" ng-class="cClass == 5 ? 'active' : ''">Elemento: {{lamina.element.name}}</div>
                         <a href="" class="col-sm-1">
-                            <i class="fa fa-chevron-down" ng-if="lamina.element.text"></i>
+                            <i class="fa" ng-class="cClass == 5 ? 'fa-chevron-up' : 'fa-chevron-down'" ng-if="lamina.element.text"></i>
                         </a>
                     </a>
 
@@ -67,9 +67,9 @@
                         <div class="col-sm-1 icon">
                             <i class="ai {{lamina.astrology.symbol}}"></i>
                         </div>
-                        <div class="col-sm-6 title">Astrologia: {{lamina.astrology.name}}</div>
+                        <div class="col-sm-6 title" ng-class="cClass == 4 ? 'active' : ''">Astrologia: {{lamina.astrology.name}}</div>
                         <a href="" class="col-sm-1">
-                            <i class="fa fa-chevron-down" ng-if="lamina.astrology.text"></i>
+                            <i class="fa" ng-class="cClass == 4 ? 'fa-chevron-up' : 'fa-chevron-down'" ng-if="lamina.astrology.text"></i>
                         </a>
                     </a>
 
@@ -83,9 +83,9 @@
                         <div class="col-sm-1 icon">
                             <i class="ai {{lamina.hebrew_letter.symbol}}"></i>
                         </div>
-                        <div class="col-sm-6 title">Letra Hebráica</div>
+                        <div class="col-sm-6 title" ng-class="cClass == 2 ? 'active' : ''">Letra Hebráica</div>
                         <a href="" class="col-sm-1">
-                            <i class="fa fa-chevron-down" ng-if="lamina.hebrew_letter.text"></i>
+                            <i class="fa" ng-class="cClass == 2 ? 'fa-chevron-up' : 'fa-chevron-down'" ng-if="lamina.hebrew_letter.text"></i>
                         </a>
                     </a>
 
@@ -99,9 +99,9 @@
                         <div class="col-sm-1 icon">
                             <i class="ai {{lamina.numerology.symbol}}">{{lamina.numerology.symbol}}</i>
                         </div>
-                        <div class="col-sm-6 title">Numerologia</div>
+                        <div class="col-sm-6 title" ng-class="cClass == 3 ? 'active' : ''">Numerologia</div>
                         <a href="" class="col-sm-1">
-                            <i class="fa fa-chevron-down" ng-if="lamina.numerology.text"></i>
+                            <i class="fa" ng-class="cClass == 3 ? 'fa-chevron-up' : 'fa-chevron-down'" ng-if="lamina.numerology.text"></i>
                         </a>
                     </a>
 
@@ -115,9 +115,9 @@
                         <div class="col-sm-1 icon">
                             <i class="cabala-ico"></i>
                         </div>
-                        <div class="col-sm-6 title">Caminho na Cabala: {{lamina.cabala_path.symbol}}</div>
+                        <div class="col-sm-6 title" ng-class="cClass == 6 ? 'active' : ''">Caminho na Cabala: {{lamina.cabala_path.symbol}}</div>
                         <a href="" class="col-sm-1">
-                            <i class="fa fa-chevron-down" ng-if="lamina.cabala_path.text"></i>
+                            <i class="fa" ng-class="cClass == 6 ? 'fa-chevron-up' : 'fa-chevron-down'" ng-if="lamina.cabala_path.text"></i>
                         </a>
                     </a>
 

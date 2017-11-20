@@ -4,6 +4,16 @@
     .title{
         text-align: left;
         font-size: 24px;
+
+        &:hover{
+            color: #000;
+            text-decoration: underline;
+        }
+
+        &.active{
+            color: #000;
+            text-decoration: underline;
+        }
     }
 
     .menu{
