@@ -7,24 +7,28 @@
         "slug": "o-louco",
         "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid voluptates veniam facere voluptas, sapiente architecto dolor adipisci, error qui enim! Nemo odio quam provident ea natus voluptas, non molestias repellat!",
         "hebrew_letter": {
-            "symbol": "mercury",
-            "text": "Lorem ispum dolor sit amte"
+            "symbol": "Aleph",
+            "text": "Nascer, Equilíbrio, Peito"
         },
         "numerology": {
-            "symbol": "mercury",
-            "text": "Lorem ispum dolor sit amte"
+            "symbol": "0",
+            "text": "Como princípio absoluto universal: o 0 (zero) representa o eterno em potência, o que é anterior e posterior aos princípios. Como princípio de formação no homem:  o 0 é a possibilidade em potência, a razão pela qual as razões não o são. Não o identificamos a qualquer idéia: é anterior à volição, a aurora do nada."
         },
         "astrology": {
-            "symbol": "mercury",
-            "text": "Lorem ispum dolor sit amte"
+            "symbol": "sun",
+            "text": ""
         },
         "element": {
-            "symbol": "mercury",
-            "text": "Lorem ispum dolor sit amte"
+            "symbol": "",
+            "text": ""
         },
         "cabala_path": {
-            "symbol": "mercury",
-            "text": "Lorem ispum dolor sit amte"
+            "symbol": "11º Keter - Hokhmah",
+            "text": "'O 11º caminho é a Inteligência Cintilante porque ele é a essência dessa cortina colocada junto da ordem de arranjo e lhe é dada uma dignidade especial de ser capaz de manter-se de pé diante da Face da Causa das Causas.' A 'Face da Causa das Causas' é a fonte de toda a Criação em Keter; por isso a experiência espiritual de Hokhmah é a Visão de Deus face à face. No sentido ascendente, de Hokhmah para Keter, o 11º caminho constitui portanto esse alto nível de consciência que a alma iluminada percorre desde a Visão direta de Deus face a face até a experiência transcendental ainda mais alta de União real com Deus. Trata-se da "Inteligência Cintilante".Em Keter está o Verdadeiro Plano da evolução e de toda vida criada. "A ordem de arranjo (ou de composição)" é portanto um título válido para Keter. A "cortina" ou Véu é o da vida na Forma. A Forma é a cortina que oculta (e ao mesmo tempo revela) a essência da vida. Mas, nesse caso se trata de uma força pura, pois o 11º caminho é a "essência dessa cortina". Nesses níveis supremos, a forma é muito atenuada em comparação ao nível denso da nossa existência, mas nem por isso é menos poderosa. Uma forma incorreta ou mal aplicada num nível superior da manifestação pode produzir deformações que se ampliarão à medida que seus efeitos se façam sentir nos planos inferiores.O elemento Ar é um bom símbolo para o Espírito, pois é ilimitado, insinua-se por toda parte e é também um grande disseminador.No sentido ascendente, o 11º Caminho reapresenta a etapa final da união com Deus. A descida desse caminho é a primeira etapa daDescida do Poder simbolizado na Kabbalah pelo Raio Fulgurante. Ele representa, portanto, os primeiros inícios."
+        },
+        "zodiac_sign":{
+            "symbol": "sagitario",
+            "text": ""
         }
     }
 ]
