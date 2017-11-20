@@ -7,8 +7,10 @@ export default class LaminaController {
       $scope.lamina = lamina[0]
     })
 
+    $scope.showme = false;
+
     $scope.showText = function(elementNumber){
-      $scope.cClass = elementNumber;
+      $scope.cClass = elementNumber;      
     }
   }
 }
