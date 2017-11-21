@@ -97,7 +97,7 @@
 .ai.capricornio:before {
     content:"\2651";
 }
-.ai.aquariu:before {
+.ai.aquario:before {
     content:"\2652";
 }
 .ai.peixes:before {
@@ -196,6 +196,30 @@
 
 .ai.water{
     background: url("/src/assets/images/4_elementos/water.png") no-repeat;
+    background-size: contain;
+    height: 28px;
+    width: 100%;
+    float:left;
+}
+
+.ai.air{
+    background: url("/src/assets/images/4_elementos/air.png") no-repeat;
+    background-size: contain;
+    height: 28px;
+    width: 100%;
+    float:left;
+}
+
+.ai.fire{
+    background: url("/src/assets/images/4_elementos/fire.png") no-repeat;
+    background-size: contain;
+    height: 28px;
+    width: 100%;
+    float:left;
+}
+
+.ai.earth{
+    background: url("/src/assets/images/4_elementos/earth.png") no-repeat;
     background-size: contain;
     height: 28px;
     width: 100%;

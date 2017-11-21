@@ -46,7 +46,7 @@
                         </a>
 
                         <div class="text col-md-12 col-xs-12" ng-if="lamina.zodiac_sign.text" ng-show="cClass == 7">
-                            <p>{{lamina.zodiac_sign.text}}</p>
+                            <p ng-bind-html="lamina.zodiac_sign.text"></p>
                         </div>
                     </div>
                 </div>
@@ -64,7 +64,7 @@
                         </a>
 
                         <div class="text col-md-12 col-xs-12" ng-if="lamina.element.text" ng-show="cClass == 5">
-                            <p>{{lamina.element.text}}</p>
+                            <p ng-bind-html="lamina.element.text"></p>
                         </div>
                     </div>
                 </div>
@@ -82,7 +82,7 @@
                         </a>
 
                         <div class="text col-md-12 col-xs-12" ng-if="lamina.astrology.text" ng-show="cClass == 4">
-                            <p>{{lamina.astrology.text}}</p>
+                            <p ng-bind-html="lamina.astrology.text"></p>
                         </div>
                     </div>
                 </div>      
@@ -100,7 +100,7 @@
                         </a>
 
                         <div class="text col-md-12 col-xs-12" ng-if="lamina.hebrew_letter.text" ng-show="cClass == 2">
-                            <p>{{lamina.hebrew_letter.text}}</p>
+                            <p ng-bind-html="lamina.hebrew_letter.text"></p>
                         </div>
                     </div>
                 </div>
@@ -118,7 +118,7 @@
                         </a>
 
                         <div class="text col-md-12 col-xs-12" ng-if="lamina.numerology.text" ng-show="cClass == 3">
-                            <p>{{lamina.numerology.text}}</p>
+                            <p ng-bind-html="lamina.numerology.text"></p>
                         </div>
                     </div>
                 </div>                          
@@ -136,7 +136,7 @@
                         </a>
 
                         <div class="text col-md-12 col-xs-12" ng-if="lamina.cabala_path.text" ng-show="cClass == 6">
-                            <p>{{lamina.cabala_path.text}}</p>
+                            <p ng-bind-html="lamina.cabala_path.text"></p>
                         </div>
                     </div>
                 </div>                

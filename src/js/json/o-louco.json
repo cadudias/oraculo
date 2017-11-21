@@ -5,34 +5,34 @@
         "number": "0",
         "name": "O Louco",
         "slug": "o-louco",
-        "description": "<strong>Significado: </strong>Decisão importante. A pessoa encontra-se diante de uma escolha que deve decidir com cuidado, mas também com coragem e, sobretudo, atendendo a sua intuição e seus impulsos. Os riscos podem ser assumidos. <br/><strong>Inverso: </strong>Há perigo de que escolha mal. É aconselhável atuar com a máxima precaução e prudência.",
+        "description": "O espírito - É a faísca que faz com tudo se mova no espírito, o alento divino que dá a vida e inspira o primeiro passo até a realização e a consumação. É o nada do qual surge tudo. É o potencial sem ter sido moldado, puro e inocente, nem positivo, nem negativo, ainda qque contenha a possibilidade de ambos. Ingenuidade. O Louco costuma representar inícios, experiências e opções novas; os primeiros passos de um novo caminho e as primeiras palavras escritas numa página em branco. Pode ser a carta 0 ou 22 em alguns baralhos, simbolizando um ciclo que não tem fim. <br/><strong>Significado: </strong>Decisão importante. A pessoa encontra-se diante de uma escolha que deve decidir com cuidado, mas também com coragem e, sobretudo, atendendo a sua intuição e seus impulsos. Os riscos podem ser assumidos. <br/><strong>Inverso: </strong>Há perigo de que escolha mal. É aconselhável atuar com a máxima precaução e prudência.",
         "hebrew_letter": {
             "symbol": "aleph",
             "name": "Aleph",
-            "text": "Nascer, Equilíbrio, Peito"
+            "text": "Nascer, Equilíbrio </br> Normalmente simboliza o começo de algo. Portanto tem tudo a ver com a carta 0 do baralho de Rider-Waite."
         },
         "numerology": {
             "symbol": "0",
             "text": "Como princípio absoluto universal: o 0 (zero) representa o eterno em potência, o que é anterior e posterior aos princípios. Como princípio de formação no homem:  o 0 é a possibilidade em potência, a razão pela qual as razões não o são. Não o identificamos a qualquer idéia: é anterior à volição, a aurora do nada."
         },
         "astrology": {
-            "symbol": "sol",
-            "name": "Sol",
-            "text": null
+            "symbol": "urano",
+            "name": "Urano",
+            "text": "Urano simboliza a rebeldia, a revolução, as alterações súbitas. O planeta trata fundamentalmente da libertação da consciência, das cristalizações emocionais, ideológicas, intelectuais e sociais. Ele gera a vontade de criar algo novo, fruto da insatisfação com a realidade anterior. É a necessidade de mudar o que está estabelecido, de renovar radicalmente."                
         },
         "element": {
-            "symbol": "water",
-            "name": "Água",
+            "symbol": "air",
+            "name": "Ar",
             "text": null
         },
         "cabala_path": {
-            "symbol": "11º Keter - Hokhmah",
-            "text": "'O 11º caminho é a Inteligência Cintilante porque ele é a essência dessa cortina colocada junto da ordem de arranjo e lhe é dada uma dignidade especial de ser capaz de manter-se de pé diante da Face da Causa das Causas.' A 'Face da Causa das Causas' é a fonte de toda a Criação em Keter; por isso a experiência espiritual de Hokhmah é a Visão de Deus face à face. No sentido ascendente, de Hokhmah para Keter, o 11º caminho constitui portanto esse alto nível de consciência que a alma iluminada percorre desde a Visão direta de Deus face a face até a experiência transcendental ainda mais alta de União real com Deus. Trata-se da 'Inteligência Cintilante'. Em Keter está o Verdadeiro Plano da evolução e de toda vida criada. 'A ordem de arranjo (ou de composição)' é portanto um título válido para Keter. A 'cortina' ou Véu é o da vida na Forma. A Forma é a cortina que oculta (e ao mesmo tempo revela) a essência da vida. Mas, nesse caso se trata de uma força pura, pois o 11º caminho é a 'essência dessa cortina'. Nesses níveis supremos, a forma é muito atenuada em comparação ao nível denso da nossa existência, mas nem por isso é menos poderosa. Uma forma incorreta ou mal aplicada num nível superior da manifestação pode produzir deformações que se ampliarão à medida que seus efeitos se façam sentir nos planos inferiores.O elemento Ar é um bom símbolo para o Espírito, pois é ilimitado, insinua-se por toda parte e é também um grande disseminador.No sentido ascendente, o 11º Caminho reapresenta a etapa final da união com Deus. A descida desse caminho é a primeira etapa daDescida do Poder simbolizado na Kabbalah pelo Raio Fulgurante. Ele representa, portanto, os primeiros inícios."
+            "symbol": "21º SHIN - Thiphared",
+            "text": "No sentido descendente 1 – 6 – Irradiando da energia suprema que a tudo anima e ilumina e o individuo recebe essa luz que lhe ilumina a consciência possibilitando-o assim de que se reconheça como ser uno e indivisível, criado à imagem e semelhança do seu Criador; depois de se receber a Coroa será necessário ter a consciência da Beleza do nosso verdadeiro Eu que só será completa após a implantação de uma ordem superior. <br/> No sentido ascendente 6 – 1, a consciência do indivíduo apercebe-se que terá que se incluir num universo mais vasto de que ele se apercebe fazer parte. Existe aqui um reconhecimento interior que o que se implantou e obteve êxito foi graças à adopção de leis universais superiores, e que toda a luz e potencial vêm da Coroa, a mais elevada das esferas."
         },
         "zodiac_sign":{
-            "symbol": "sagitario",
-            "name": "Sagitário",
-            "text": null
+            "symbol": "aquario",
+            "name": "Aquário",
+            "text": "INOVAÇÃO, ORIGINALIDADE E VISÃO - No signo de Aquário encontramos a abertura a novas ideias. Abusa das teorias e sua visão vai além do habitual, daí se dizer que Aquário é o signo dos inventores. Tem facilidade para enxergar o que pode dar certo ou não. "
         }
     }
 ]
